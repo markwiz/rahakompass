@@ -1,0 +1,991 @@
+id,date,description,category,kind,amount_cents
+1,2024-11-01,Salary,Income,Income,285000
+2,2024-11-02,Rent,Housing,Expense,-78000
+3,2024-11-02,Selver,Groceries,Expense,-2044
+4,2024-11-03,Selver,Groceries,Expense,-5256
+5,2024-11-03,Selver,Groceries,Expense,-3591
+6,2024-11-04,City utilities,Utilities,Expense,-14619
+7,2024-11-04,Neighbourhood café,Dining out,Expense,-859
+8,2024-11-04,Selver,Groceries,Expense,-2004
+9,2024-11-05,Mobile and internet,Subscriptions,Expense,-3500
+10,2024-11-05,Neighbourhood café,Dining out,Expense,-1361
+11,2024-11-05,Selver,Groceries,Expense,-2639
+12,2024-11-06,Savings transfer,Transfers,Transfer,-15000
+13,2024-11-06,Savings transfer received,Transfers,Transfer,15000
+14,2024-11-08,Rimi,Groceries,Expense,-3169
+15,2024-11-08,Selver,Groceries,Expense,-3628
+16,2024-11-09,City transit,Transport,Expense,-213
+17,2024-11-11,Neighbourhood café,Dining out,Expense,-1618
+18,2024-11-12,Neighbourhood café,Dining out,Expense,-1888
+19,2024-11-13,Department store,Shopping,Expense,-2445
+20,2024-11-13,Neighbourhood café,Dining out,Expense,-876
+21,2024-11-14,Circle K,Transport,Expense,-4102
+22,2024-11-15,Circle K,Transport,Expense,-5613
+23,2024-11-18,Department store,Shopping,Expense,-4201
+24,2024-11-18,Department store,Shopping,Expense,-2822
+25,2024-11-18,Rimi,Groceries,Expense,-1914
+26,2024-11-19,Pharmacy,Health,Expense,-2275
+27,2024-11-20,Cinema,Entertainment,Expense,-2663
+28,2024-11-20,Restaurant,Dining out,Expense,-3083
+29,2024-11-20,Rimi,Groceries,Expense,-1208
+30,2024-11-22,Circle K · lunch,Transport,Expense,-890
+31,2024-11-22,Selver,Groceries,Expense,-6267
+32,2024-11-23,Circle K,Transport,Expense,-5432
+33,2024-11-23,City transit,Transport,Expense,-1065
+34,2024-11-23,Rimi,Groceries,Expense,-3761
+35,2024-11-24,Restaurant,Dining out,Expense,-3881
+36,2024-11-24,Selver,Groceries,Expense,-4053
+37,2024-11-25,City transit,Transport,Expense,-526
+38,2024-11-25,Neighbourhood café,Dining out,Expense,-1858
+39,2024-11-26,Restaurant,Dining out,Expense,-2177
+40,2024-11-27,Cinema,Entertainment,Expense,-2137
+41,2024-11-28,Pharmacy,Health,Expense,-3662
+42,2024-12-01,Salary,Income,Income,285150
+43,2024-12-02,Rent,Housing,Expense,-78000
+44,2024-12-03,Restaurant,Dining out,Expense,-2864
+45,2024-12-03,Selver,Groceries,Expense,-3707
+46,2024-12-03,Selver,Groceries,Expense,-2175
+47,2024-12-04,City utilities,Utilities,Expense,-14885
+48,2024-12-05,Cinema,Entertainment,Expense,-1392
+49,2024-12-05,Cinema,Entertainment,Expense,-1355
+50,2024-12-05,Mobile and internet,Subscriptions,Expense,-3500
+51,2024-12-06,Circle K,Transport,Expense,-5387
+52,2024-12-06,City transit,Transport,Expense,-1146
+53,2024-12-06,Savings transfer,Transfers,Transfer,-15000
+54,2024-12-06,Savings transfer received,Transfers,Transfer,15000
+55,2024-12-06,Selver,Groceries,Expense,-4832
+56,2024-12-07,Department store,Shopping,Expense,-7169
+57,2024-12-08,Neighbourhood café,Dining out,Expense,-611
+58,2024-12-12,Rimi,Groceries,Expense,-1958
+59,2024-12-13,City transit,Transport,Expense,-752
+60,2024-12-13,Neighbourhood café,Dining out,Expense,-1576
+61,2024-12-13,Selver,Groceries,Expense,-4077
+62,2024-12-15,Selver,Groceries,Expense,-4788
+63,2024-12-16,Department store,Shopping,Expense,-5041
+64,2024-12-18,Neighbourhood café,Dining out,Expense,-1379
+65,2024-12-19,Restaurant,Dining out,Expense,-5589
+66,2024-12-20,Circle K,Transport,Expense,-5800
+67,2024-12-20,Seasonal shopping,Shopping,Expense,-16000
+68,2024-12-21,City transit,Transport,Expense,-1609
+69,2024-12-21,Department store,Shopping,Expense,-5558
+70,2024-12-21,Rimi,Groceries,Expense,-1392
+71,2024-12-22,Circle K · lunch,Transport,Expense,-890
+72,2024-12-22,Neighbourhood café,Dining out,Expense,-1808
+73,2024-12-22,Rimi,Groceries,Expense,-2193
+74,2024-12-22,Selver,Groceries,Expense,-3666
+75,2024-12-23,Restaurant,Dining out,Expense,-3288
+76,2024-12-23,Rimi,Groceries,Expense,-3899
+77,2024-12-24,Circle K,Transport,Expense,-4202
+78,2024-12-24,Pharmacy,Health,Expense,-4209
+79,2024-12-24,Pharmacy,Health,Expense,-2852
+80,2024-12-25,Selver,Groceries,Expense,-4170
+81,2024-12-26,Neighbourhood café,Dining out,Expense,-1772
+82,2024-12-27,Neighbourhood café,Dining out,Expense,-709
+83,2024-12-28,Selver,Groceries,Expense,-2627
+84,2025-01-01,Cinema,Entertainment,Expense,-1079
+85,2025-01-01,Department store,Shopping,Expense,-6706
+86,2025-01-01,Neighbourhood café,Dining out,Expense,-1558
+87,2025-01-01,Salary,Income,Income,285300
+88,2025-01-02,Rent,Housing,Expense,-78000
+89,2025-01-03,Selver,Groceries,Expense,-2185
+90,2025-01-04,Circle K,Transport,Expense,-5992
+91,2025-01-04,City utilities,Utilities,Expense,-14390
+92,2025-01-05,Mobile and internet,Subscriptions,Expense,-3500
+93,2025-01-05,Restaurant,Dining out,Expense,-3531
+94,2025-01-05,Selver,Groceries,Expense,-3110
+95,2025-01-06,Neighbourhood café,Dining out,Expense,-2338
+96,2025-01-06,Savings transfer,Transfers,Transfer,-15000
+97,2025-01-06,Savings transfer received,Transfers,Transfer,15000
+98,2025-01-08,Pharmacy,Health,Expense,-1174
+99,2025-01-08,Selver,Groceries,Expense,-2933
+100,2025-01-09,City transit,Transport,Expense,-1512
+101,2025-01-10,City transit,Transport,Expense,-1090
+102,2025-01-11,Cinema,Entertainment,Expense,-1850
+103,2025-01-11,City transit,Transport,Expense,-428
+104,2025-01-12,Pharmacy,Health,Expense,-3219
+105,2025-01-13,Rimi,Groceries,Expense,-2663
+106,2025-01-13,Selver,Groceries,Expense,-4765
+107,2025-01-17,Department store,Shopping,Expense,-9324
+108,2025-01-17,Neighbourhood café,Dining out,Expense,-1211
+109,2025-01-17,Neighbourhood café,Dining out,Expense,-915
+110,2025-01-17,Rimi,Groceries,Expense,-2129
+111,2025-01-17,Selver,Groceries,Expense,-5842
+112,2025-01-18,Circle K,Transport,Expense,-6275
+113,2025-01-18,Department store,Shopping,Expense,-8178
+114,2025-01-18,Rimi,Groceries,Expense,-1147
+115,2025-01-20,Restaurant,Dining out,Expense,-2814
+116,2025-01-20,Rimi,Groceries,Expense,-3017
+117,2025-01-20,Selver,Groceries,Expense,-2320
+118,2025-01-22,Circle K,Transport,Expense,-6152
+119,2025-01-22,Circle K · lunch,Transport,Expense,-890
+120,2025-01-25,Restaurant,Dining out,Expense,-2661
+121,2025-01-26,Selver,Groceries,Expense,-5258
+122,2025-01-27,Neighbourhood café,Dining out,Expense,-2559
+123,2025-01-28,Neighbourhood café,Dining out,Expense,-1702
+124,2025-01-28,Selver,Groceries,Expense,-2698
+125,2025-02-01,Neighbourhood café,Dining out,Expense,-770
+126,2025-02-01,Salary,Income,Income,285450
+127,2025-02-02,Rent,Housing,Expense,-78000
+128,2025-02-02,Restaurant,Dining out,Expense,-5521
+129,2025-02-03,Selver,Groceries,Expense,-5781
+130,2025-02-04,City transit,Transport,Expense,-707
+131,2025-02-04,City utilities,Utilities,Expense,-12986
+132,2025-02-05,Mobile and internet,Subscriptions,Expense,-3500
+133,2025-02-05,Selver,Groceries,Expense,-5693
+134,2025-02-06,Savings transfer,Transfers,Transfer,-15000
+135,2025-02-06,Savings transfer received,Transfers,Transfer,15000
+136,2025-02-07,Circle K,Transport,Expense,-6120
+137,2025-02-08,Neighbourhood café,Dining out,Expense,-742
+138,2025-02-08,Pharmacy,Health,Expense,-4574
+139,2025-02-08,Restaurant,Dining out,Expense,-2276
+140,2025-02-09,Department store,Shopping,Expense,-7280
+141,2025-02-09,Selver,Groceries,Expense,-6122
+142,2025-02-10,Circle K,Transport,Expense,-4834
+143,2025-02-11,Neighbourhood café,Dining out,Expense,-566
+144,2025-02-11,Restaurant,Dining out,Expense,-2290
+145,2025-02-12,City transit,Transport,Expense,-1097
+146,2025-02-14,Rimi,Groceries,Expense,-1967
+147,2025-02-16,Department store,Shopping,Expense,-3555
+148,2025-02-17,City transit,Transport,Expense,-1124
+149,2025-02-17,Department store,Shopping,Expense,-3749
+150,2025-02-18,Cinema,Entertainment,Expense,-1120
+151,2025-02-18,Rimi,Groceries,Expense,-4193
+152,2025-02-18,Selver,Groceries,Expense,-3152
+153,2025-02-19,Neighbourhood café,Dining out,Expense,-1422
+154,2025-02-19,Neighbourhood café,Dining out,Expense,-1382
+155,2025-02-19,Pharmacy,Health,Expense,-4572
+156,2025-02-19,Selver,Groceries,Expense,-2445
+157,2025-02-22,Circle K,Transport,Expense,-5861
+158,2025-02-22,Circle K · lunch,Transport,Expense,-890
+159,2025-02-23,Neighbourhood café,Dining out,Expense,-721
+160,2025-02-24,Cinema,Entertainment,Expense,-2657
+161,2025-02-24,Rimi,Groceries,Expense,-3925
+162,2025-02-25,Selver,Groceries,Expense,-6163
+163,2025-02-25,Selver,Groceries,Expense,-2830
+164,2025-02-27,Selver,Groceries,Expense,-2366
+165,2025-02-28,Rimi,Groceries,Expense,-3584
+166,2025-03-01,Salary,Income,Income,285600
+167,2025-03-02,Neighbourhood café,Dining out,Expense,-1154
+168,2025-03-02,Rent,Housing,Expense,-78000
+169,2025-03-02,Selver,Groceries,Expense,-5098
+170,2025-03-03,Neighbourhood café,Dining out,Expense,-1448
+171,2025-03-04,City transit,Transport,Expense,-303
+172,2025-03-04,City utilities,Utilities,Expense,-11807
+173,2025-03-04,Selver,Groceries,Expense,-2594
+174,2025-03-05,Mobile and internet,Subscriptions,Expense,-3500
+175,2025-03-05,Pharmacy,Health,Expense,-2255
+176,2025-03-06,Neighbourhood café,Dining out,Expense,-2144
+177,2025-03-06,Savings transfer,Transfers,Transfer,-15000
+178,2025-03-06,Savings transfer received,Transfers,Transfer,15000
+179,2025-03-07,Neighbourhood café,Dining out,Expense,-2122
+180,2025-03-07,Rimi,Groceries,Expense,-3296
+181,2025-03-08,City transit,Transport,Expense,-354
+182,2025-03-08,Rimi,Groceries,Expense,-1884
+183,2025-03-09,Circle K,Transport,Expense,-5094
+184,2025-03-10,Pharmacy,Health,Expense,-2483
+185,2025-03-12,Selver,Groceries,Expense,-5269
+186,2025-03-13,Restaurant,Dining out,Expense,-3086
+187,2025-03-13,Restaurant,Dining out,Expense,-2008
+188,2025-03-14,Circle K,Transport,Expense,-3951
+189,2025-03-14,Department store,Shopping,Expense,-7506
+190,2025-03-14,Selver,Groceries,Expense,-5625
+191,2025-03-14,Selver,Groceries,Expense,-3359
+192,2025-03-15,Circle K,Transport,Expense,-3774
+193,2025-03-15,City transit,Transport,Expense,-1327
+194,2025-03-15,Department store,Shopping,Expense,-4136
+195,2025-03-16,Neighbourhood café,Dining out,Expense,-2451
+196,2025-03-18,Cinema,Entertainment,Expense,-2205
+197,2025-03-21,Neighbourhood café,Dining out,Expense,-540
+198,2025-03-22,Circle K · lunch,Transport,Expense,-890
+199,2025-03-22,Selver,Groceries,Expense,-5331
+200,2025-03-22,Selver,Groceries,Expense,-2606
+201,2025-03-23,Cinema,Entertainment,Expense,-1846
+202,2025-03-24,Department store,Shopping,Expense,-8217
+203,2025-03-24,Rimi,Groceries,Expense,-2489
+204,2025-03-26,Restaurant,Dining out,Expense,-5215
+205,2025-03-26,Rimi,Groceries,Expense,-1547
+206,2025-03-28,Selver,Groceries,Expense,-2243
+207,2025-04-01,Salary,Income,Income,285750
+208,2025-04-02,Circle K,Transport,Expense,-5736
+209,2025-04-02,Rent,Housing,Expense,-78000
+210,2025-04-02,Selver,Groceries,Expense,-4369
+211,2025-04-02,Selver,Groceries,Expense,-2210
+212,2025-04-03,City transit,Transport,Expense,-1058
+213,2025-04-03,Department store,Shopping,Expense,-6204
+214,2025-04-03,Pharmacy,Health,Expense,-2701
+215,2025-04-03,Restaurant,Dining out,Expense,-2038
+216,2025-04-03,Rimi,Groceries,Expense,-3865
+217,2025-04-03,Rimi,Groceries,Expense,-3537
+218,2025-04-04,City utilities,Utilities,Expense,-8739
+219,2025-04-05,Mobile and internet,Subscriptions,Expense,-3500
+220,2025-04-06,Savings transfer,Transfers,Transfer,-15000
+221,2025-04-06,Savings transfer received,Transfers,Transfer,15000
+222,2025-04-06,Selver,Groceries,Expense,-2265
+223,2025-04-07,Department store,Shopping,Expense,-5944
+224,2025-04-07,Neighbourhood café,Dining out,Expense,-1766
+225,2025-04-08,Neighbourhood café,Dining out,Expense,-1567
+226,2025-04-09,Cinema,Entertainment,Expense,-1121
+227,2025-04-11,Neighbourhood café,Dining out,Expense,-1548
+228,2025-04-12,Cinema,Entertainment,Expense,-2654
+229,2025-04-12,Pharmacy,Health,Expense,-3034
+230,2025-04-13,Neighbourhood café,Dining out,Expense,-1016
+231,2025-04-13,Rimi,Groceries,Expense,-1591
+232,2025-04-15,Neighbourhood café,Dining out,Expense,-1775
+233,2025-04-15,Restaurant,Dining out,Expense,-4544
+234,2025-04-17,Selver,Groceries,Expense,-6150
+235,2025-04-17,Selver,Groceries,Expense,-2456
+236,2025-04-19,Circle K,Transport,Expense,-5635
+237,2025-04-19,Circle K,Transport,Expense,-4208
+238,2025-04-19,City transit,Transport,Expense,-1270
+239,2025-04-19,Department store,Shopping,Expense,-2619
+240,2025-04-19,Selver,Groceries,Expense,-6241
+241,2025-04-19,Selver,Groceries,Expense,-5705
+242,2025-04-22,Circle K · lunch,Transport,Expense,-890
+243,2025-04-22,City transit,Transport,Expense,-1395
+244,2025-04-22,Neighbourhood café,Dining out,Expense,-1708
+245,2025-04-25,Restaurant,Dining out,Expense,-5832
+246,2025-04-28,Rimi,Groceries,Expense,-2063
+247,2025-04-28,Selver,Groceries,Expense,-3322
+248,2025-05-01,Salary,Income,Income,285900
+249,2025-05-01,Selver,Groceries,Expense,-6343
+250,2025-05-02,Cinema,Entertainment,Expense,-1481
+251,2025-05-02,Department store,Shopping,Expense,-8637
+252,2025-05-02,Neighbourhood café,Dining out,Expense,-494
+253,2025-05-02,Rent,Housing,Expense,-78000
+254,2025-05-03,City transit,Transport,Expense,-1499
+255,2025-05-04,City utilities,Utilities,Expense,-9146
+256,2025-05-04,Restaurant,Dining out,Expense,-2308
+257,2025-05-04,Selver,Groceries,Expense,-2676
+258,2025-05-05,Mobile and internet,Subscriptions,Expense,-3500
+259,2025-05-05,Restaurant,Dining out,Expense,-4234
+260,2025-05-05,Rimi,Groceries,Expense,-2215
+261,2025-05-05,Selver,Groceries,Expense,-3966
+262,2025-05-06,Neighbourhood café,Dining out,Expense,-2289
+263,2025-05-06,Savings transfer,Transfers,Transfer,-15000
+264,2025-05-06,Savings transfer received,Transfers,Transfer,15000
+265,2025-05-07,Rimi,Groceries,Expense,-4039
+266,2025-05-09,City transit,Transport,Expense,-304
+267,2025-05-10,Rimi,Groceries,Expense,-3577
+268,2025-05-10,Selver,Groceries,Expense,-2648
+269,2025-05-11,Neighbourhood café,Dining out,Expense,-1015
+270,2025-05-11,Rimi,Groceries,Expense,-1933
+271,2025-05-12,Department store,Shopping,Expense,-6571
+272,2025-05-12,Pharmacy,Health,Expense,-2420
+273,2025-05-12,Pharmacy,Health,Expense,-1026
+274,2025-05-14,Cinema,Entertainment,Expense,-1111
+275,2025-05-14,City transit,Transport,Expense,-766
+276,2025-05-15,Selver,Groceries,Expense,-6250
+277,2025-05-17,Circle K,Transport,Expense,-5201
+278,2025-05-18,Department store,Shopping,Expense,-3013
+279,2025-05-18,Neighbourhood café,Dining out,Expense,-2231
+280,2025-05-18,Neighbourhood café,Dining out,Expense,-519
+281,2025-05-20,Selver,Groceries,Expense,-6133
+282,2025-05-21,Neighbourhood café,Dining out,Expense,-1552
+283,2025-05-22,Circle K,Transport,Expense,-5797
+284,2025-05-22,Circle K · lunch,Transport,Expense,-890
+285,2025-05-23,Restaurant,Dining out,Expense,-5702
+286,2025-05-23,Selver,Groceries,Expense,-4278
+287,2025-05-24,Selver,Groceries,Expense,-6332
+288,2025-05-28,Circle K,Transport,Expense,-4281
+289,2025-06-01,Cinema,Entertainment,Expense,-1086
+290,2025-06-01,Salary,Income,Income,286050
+291,2025-06-02,Rent,Housing,Expense,-78000
+292,2025-06-03,Restaurant,Dining out,Expense,-5960
+293,2025-06-04,Circle K,Transport,Expense,-4766
+294,2025-06-04,City utilities,Utilities,Expense,-11293
+295,2025-06-05,Mobile and internet,Subscriptions,Expense,-3500
+296,2025-06-06,Savings transfer,Transfers,Transfer,-15000
+297,2025-06-06,Savings transfer received,Transfers,Transfer,15000
+298,2025-06-06,Selver,Groceries,Expense,-4521
+299,2025-06-08,City transit,Transport,Expense,-608
+300,2025-06-08,Neighbourhood café,Dining out,Expense,-576
+301,2025-06-08,Selver,Groceries,Expense,-3131
+302,2025-06-08,Selver,Groceries,Expense,-2642
+303,2025-06-09,Circle K,Transport,Expense,-3852
+304,2025-06-09,Pharmacy,Health,Expense,-2162
+305,2025-06-09,Restaurant,Dining out,Expense,-5540
+306,2025-06-12,Department store,Shopping,Expense,-7055
+307,2025-06-12,Neighbourhood café,Dining out,Expense,-1730
+308,2025-06-12,Selver,Groceries,Expense,-6386
+309,2025-06-13,Neighbourhood café,Dining out,Expense,-1824
+310,2025-06-14,Selver,Groceries,Expense,-2003
+311,2025-06-17,Department store,Shopping,Expense,-5074
+312,2025-06-18,Cinema,Entertainment,Expense,-1528
+313,2025-06-19,Pharmacy,Health,Expense,-2874
+314,2025-06-20,Selver,Groceries,Expense,-3066
+315,2025-06-22,Circle K · lunch,Transport,Expense,-890
+316,2025-06-22,Department store,Shopping,Expense,-8711
+317,2025-06-22,Neighbourhood café,Dining out,Expense,-1271
+318,2025-06-25,Restaurant,Dining out,Expense,-3143
+319,2025-06-26,Circle K,Transport,Expense,-6072
+320,2025-06-26,Rimi,Groceries,Expense,-3843
+321,2025-06-26,Rimi,Groceries,Expense,-2786
+322,2025-06-26,Rimi,Groceries,Expense,-2116
+323,2025-06-26,Selver,Groceries,Expense,-3250
+324,2025-06-27,Neighbourhood café,Dining out,Expense,-2365
+325,2025-06-27,Neighbourhood café,Dining out,Expense,-1412
+326,2025-06-28,City transit,Transport,Expense,-1163
+327,2025-06-28,City transit,Transport,Expense,-279
+328,2025-06-28,Rimi,Groceries,Expense,-4110
+329,2025-06-28,Selver,Groceries,Expense,-5129
+330,2025-07-01,Salary,Income,Income,286200
+331,2025-07-01,Selver,Groceries,Expense,-6059
+332,2025-07-02,Rent,Housing,Expense,-78000
+333,2025-07-03,Circle K,Transport,Expense,-5920
+334,2025-07-04,City utilities,Utilities,Expense,-8656
+335,2025-07-04,Selver,Groceries,Expense,-5359
+336,2025-07-04,Selver,Groceries,Expense,-4955
+337,2025-07-05,Mobile and internet,Subscriptions,Expense,-3500
+338,2025-07-06,Department store,Shopping,Expense,-6842
+339,2025-07-06,Savings transfer,Transfers,Transfer,-15000
+340,2025-07-06,Savings transfer received,Transfers,Transfer,15000
+341,2025-07-07,Neighbourhood café,Dining out,Expense,-2202
+342,2025-07-07,Pharmacy,Health,Expense,-4221
+343,2025-07-09,Selver,Groceries,Expense,-2163
+344,2025-07-10,Cinema,Entertainment,Expense,-1437
+345,2025-07-11,Circle K,Transport,Expense,-5752
+346,2025-07-11,City transit,Transport,Expense,-1558
+347,2025-07-11,Neighbourhood café,Dining out,Expense,-2128
+348,2025-07-12,Circle K,Transport,Expense,-4966
+349,2025-07-12,Selver,Groceries,Expense,-4369
+350,2025-07-13,Department store,Shopping,Expense,-6288
+351,2025-07-13,Restaurant,Dining out,Expense,-4774
+352,2025-07-14,Selver,Groceries,Expense,-5989
+353,2025-07-17,Neighbourhood café,Dining out,Expense,-1746
+354,2025-07-18,Neighbourhood café,Dining out,Expense,-1001
+355,2025-07-19,Department store,Shopping,Expense,-4265
+356,2025-07-19,Selver,Groceries,Expense,-3357
+357,2025-07-20,Seasonal shopping,Shopping,Expense,-16000
+358,2025-07-22,Circle K · lunch,Transport,Expense,-890
+359,2025-07-22,Neighbourhood café,Dining out,Expense,-2152
+360,2025-07-22,Restaurant,Dining out,Expense,-5851
+361,2025-07-22,Rimi,Groceries,Expense,-4046
+362,2025-07-22,Rimi,Groceries,Expense,-1907
+363,2025-07-23,Neighbourhood café,Dining out,Expense,-1691
+364,2025-07-23,Selver,Groceries,Expense,-5372
+365,2025-07-24,City transit,Transport,Expense,-815
+366,2025-07-24,Restaurant,Dining out,Expense,-5697
+367,2025-07-24,Rimi,Groceries,Expense,-4118
+368,2025-07-26,Pharmacy,Health,Expense,-3339
+369,2025-07-26,Rimi,Groceries,Expense,-3305
+370,2025-07-27,Cinema,Entertainment,Expense,-850
+371,2025-07-28,City transit,Transport,Expense,-455
+372,2025-08-01,Rimi,Groceries,Expense,-1289
+373,2025-08-01,Salary,Income,Income,286350
+374,2025-08-02,Rent,Housing,Expense,-78000
+375,2025-08-03,Selver,Groceries,Expense,-3724
+376,2025-08-04,City utilities,Utilities,Expense,-10404
+377,2025-08-05,Mobile and internet,Subscriptions,Expense,-3500
+378,2025-08-06,Savings transfer,Transfers,Transfer,-15000
+379,2025-08-06,Savings transfer received,Transfers,Transfer,15000
+380,2025-08-07,City transit,Transport,Expense,-1671
+381,2025-08-07,Rimi,Groceries,Expense,-1703
+382,2025-08-08,Circle K,Transport,Expense,-5146
+383,2025-08-08,Neighbourhood café,Dining out,Expense,-1084
+384,2025-08-08,Restaurant,Dining out,Expense,-2720
+385,2025-08-08,Rimi,Groceries,Expense,-4403
+386,2025-08-10,Selver,Groceries,Expense,-6022
+387,2025-08-15,Cinema,Entertainment,Expense,-1123
+388,2025-08-15,City transit,Transport,Expense,-1048
+389,2025-08-15,Department store,Shopping,Expense,-2211
+390,2025-08-15,Selver,Groceries,Expense,-5422
+391,2025-08-16,Neighbourhood café,Dining out,Expense,-2116
+392,2025-08-17,Selver,Groceries,Expense,-5676
+393,2025-08-18,Department store,Shopping,Expense,-3841
+394,2025-08-20,Circle K,Transport,Expense,-6680
+395,2025-08-20,Seasonal shopping,Shopping,Expense,-16000
+396,2025-08-21,City transit,Transport,Expense,-1378
+397,2025-08-21,Neighbourhood café,Dining out,Expense,-502
+398,2025-08-22,Circle K · lunch,Transport,Expense,-890
+399,2025-08-22,Pharmacy,Health,Expense,-3299
+400,2025-08-22,Rimi,Groceries,Expense,-2371
+401,2025-08-22,Selver,Groceries,Expense,-4545
+402,2025-08-22,Selver,Groceries,Expense,-3550
+403,2025-08-22,Selver,Groceries,Expense,-2494
+404,2025-08-23,Neighbourhood café,Dining out,Expense,-2052
+405,2025-08-23,Restaurant,Dining out,Expense,-4121
+406,2025-08-25,Circle K,Transport,Expense,-3498
+407,2025-08-25,Neighbourhood café,Dining out,Expense,-2221
+408,2025-08-25,Neighbourhood café,Dining out,Expense,-916
+409,2025-08-25,Pharmacy,Health,Expense,-4325
+410,2025-08-26,Cinema,Entertainment,Expense,-1801
+411,2025-08-26,Restaurant,Dining out,Expense,-5923
+412,2025-08-26,Selver,Groceries,Expense,-3190
+413,2025-08-28,Department store,Shopping,Expense,-2794
+414,2025-09-01,Cinema,Entertainment,Expense,-1570
+415,2025-09-01,Salary,Income,Income,286500
+416,2025-09-02,Rent,Housing,Expense,-78000
+417,2025-09-03,Neighbourhood café,Dining out,Expense,-2179
+418,2025-09-04,City utilities,Utilities,Expense,-11009
+419,2025-09-05,City transit,Transport,Expense,-508
+420,2025-09-05,Mobile and internet,Subscriptions,Expense,-3500
+421,2025-09-06,Savings transfer,Transfers,Transfer,-15000
+422,2025-09-06,Savings transfer received,Transfers,Transfer,15000
+423,2025-09-07,Neighbourhood café,Dining out,Expense,-2200
+424,2025-09-08,Circle K,Transport,Expense,-4312
+425,2025-09-08,City transit,Transport,Expense,-984
+426,2025-09-08,Rimi,Groceries,Expense,-2224
+427,2025-09-10,Cinema,Entertainment,Expense,-2393
+428,2025-09-11,Circle K,Transport,Expense,-4509
+429,2025-09-13,Department store,Shopping,Expense,-5707
+430,2025-09-13,Pharmacy,Health,Expense,-4132
+431,2025-09-13,Restaurant,Dining out,Expense,-5706
+432,2025-09-14,Neighbourhood café,Dining out,Expense,-1835
+433,2025-09-14,Neighbourhood café,Dining out,Expense,-735
+434,2025-09-14,Selver,Groceries,Expense,-6288
+435,2025-09-15,Rimi,Groceries,Expense,-1417
+436,2025-09-15,Selver,Groceries,Expense,-3923
+437,2025-09-15,Selver,Groceries,Expense,-3103
+438,2025-09-16,Rimi,Groceries,Expense,-3667
+439,2025-09-18,Circle K,Transport,Expense,-3530
+440,2025-09-18,Neighbourhood café,Dining out,Expense,-2388
+441,2025-09-18,Pharmacy,Health,Expense,-2506
+442,2025-09-22,Circle K · lunch,Transport,Expense,-890
+443,2025-09-23,City transit,Transport,Expense,-512
+444,2025-09-23,Neighbourhood café,Dining out,Expense,-1356
+445,2025-09-23,Restaurant,Dining out,Expense,-2080
+446,2025-09-23,Rimi,Groceries,Expense,-2270
+447,2025-09-24,Selver,Groceries,Expense,-5688
+448,2025-09-25,Department store,Shopping,Expense,-6516
+449,2025-09-25,Restaurant,Dining out,Expense,-4392
+450,2025-09-25,Selver,Groceries,Expense,-6070
+451,2025-09-25,Selver,Groceries,Expense,-3825
+452,2025-09-27,Selver,Groceries,Expense,-5935
+453,2025-09-27,Selver,Groceries,Expense,-4071
+454,2025-09-28,Department store,Shopping,Expense,-9014
+455,2025-10-01,Salary,Income,Income,286650
+456,2025-10-01,Selver,Groceries,Expense,-5027
+457,2025-10-01,Selver,Groceries,Expense,-4985
+458,2025-10-02,Rent,Housing,Expense,-78000
+459,2025-10-03,Rimi,Groceries,Expense,-3732
+460,2025-10-04,City utilities,Utilities,Expense,-10499
+461,2025-10-04,Pharmacy,Health,Expense,-2485
+462,2025-10-05,Mobile and internet,Subscriptions,Expense,-3500
+463,2025-10-05,Selver,Groceries,Expense,-6175
+464,2025-10-06,Circle K,Transport,Expense,-3405
+465,2025-10-06,Savings transfer,Transfers,Transfer,-15000
+466,2025-10-06,Savings transfer received,Transfers,Transfer,15000
+467,2025-10-08,Cinema,Entertainment,Expense,-1108
+468,2025-10-08,Department store,Shopping,Expense,-3433
+469,2025-10-08,Selver,Groceries,Expense,-4035
+470,2025-10-09,Circle K,Transport,Expense,-4752
+471,2025-10-09,Neighbourhood café,Dining out,Expense,-2206
+472,2025-10-09,Neighbourhood café,Dining out,Expense,-815
+473,2025-10-11,City transit,Transport,Expense,-976
+474,2025-10-11,City transit,Transport,Expense,-633
+475,2025-10-11,Selver,Groceries,Expense,-5112
+476,2025-10-12,Neighbourhood café,Dining out,Expense,-1398
+477,2025-10-14,Rimi,Groceries,Expense,-1655
+478,2025-10-14,Selver,Groceries,Expense,-5778
+479,2025-10-15,City transit,Transport,Expense,-869
+480,2025-10-15,Pharmacy,Health,Expense,-2799
+481,2025-10-16,Cinema,Entertainment,Expense,-2221
+482,2025-10-16,Neighbourhood café,Dining out,Expense,-559
+483,2025-10-19,Rimi,Groceries,Expense,-3411
+484,2025-10-20,Department store,Shopping,Expense,-3048
+485,2025-10-21,Neighbourhood café,Dining out,Expense,-761
+486,2025-10-21,Restaurant,Dining out,Expense,-2164
+487,2025-10-22,Circle K · lunch,Transport,Expense,-890
+488,2025-10-22,Rimi,Groceries,Expense,-1211
+489,2025-10-24,Neighbourhood café,Dining out,Expense,-693
+490,2025-10-24,Selver,Groceries,Expense,-3152
+491,2025-10-25,Restaurant,Dining out,Expense,-5921
+492,2025-10-25,Restaurant,Dining out,Expense,-2127
+493,2025-10-27,Department store,Shopping,Expense,-1966
+494,2025-10-27,Selver,Groceries,Expense,-5628
+495,2025-10-28,Circle K,Transport,Expense,-5091
+496,2025-11-01,Neighbourhood café,Dining out,Expense,-2200
+497,2025-11-01,Salary,Income,Income,286800
+498,2025-11-02,Circle K,Transport,Expense,-4622
+499,2025-11-02,Rent,Housing,Expense,-78000
+500,2025-11-03,City transit,Transport,Expense,-1236
+501,2025-11-03,Selver,Groceries,Expense,-3789
+502,2025-11-04,Circle K,Transport,Expense,-6461
+503,2025-11-04,City utilities,Utilities,Expense,-15141
+504,2025-11-04,Neighbourhood café,Dining out,Expense,-2255
+505,2025-11-04,Rimi,Groceries,Expense,-3955
+506,2025-11-05,Mobile and internet,Subscriptions,Expense,-3500
+507,2025-11-06,Savings transfer,Transfers,Transfer,-15000
+508,2025-11-06,Savings transfer received,Transfers,Transfer,15000
+509,2025-11-09,Pharmacy,Health,Expense,-3340
+510,2025-11-10,Selver,Groceries,Expense,-4874
+511,2025-11-10,Selver,Groceries,Expense,-2685
+512,2025-11-12,Neighbourhood café,Dining out,Expense,-2363
+513,2025-11-12,Selver,Groceries,Expense,-3174
+514,2025-11-13,Selver,Groceries,Expense,-3424
+515,2025-11-14,Cinema,Entertainment,Expense,-2541
+516,2025-11-14,Restaurant,Dining out,Expense,-2721
+517,2025-11-16,Department store,Shopping,Expense,-5608
+518,2025-11-18,City transit,Transport,Expense,-1077
+519,2025-11-18,Department store,Shopping,Expense,-8145
+520,2025-11-19,Circle K,Transport,Expense,-6405
+521,2025-11-19,Selver,Groceries,Expense,-2010
+522,2025-11-20,Department store,Shopping,Expense,-8420
+523,2025-11-20,Rimi,Groceries,Expense,-4399
+524,2025-11-20,Selver,Groceries,Expense,-2738
+525,2025-11-21,Neighbourhood café,Dining out,Expense,-1877
+526,2025-11-21,Restaurant,Dining out,Expense,-3106
+527,2025-11-22,Circle K · lunch,Transport,Expense,-890
+528,2025-11-22,City transit,Transport,Expense,-958
+529,2025-11-23,Neighbourhood café,Dining out,Expense,-1106
+530,2025-11-24,Cinema,Entertainment,Expense,-2063
+531,2025-11-24,Restaurant,Dining out,Expense,-4137
+532,2025-11-25,Rimi,Groceries,Expense,-2335
+533,2025-11-25,Selver,Groceries,Expense,-3141
+534,2025-11-27,Neighbourhood café,Dining out,Expense,-2487
+535,2025-11-28,Pharmacy,Health,Expense,-2711
+536,2025-11-28,Rimi,Groceries,Expense,-3902
+537,2025-12-01,Circle K,Transport,Expense,-5316
+538,2025-12-01,Salary,Income,Income,286950
+539,2025-12-02,Rent,Housing,Expense,-78000
+540,2025-12-03,Neighbourhood café,Dining out,Expense,-1685
+541,2025-12-03,Selver,Groceries,Expense,-4084
+542,2025-12-04,City utilities,Utilities,Expense,-15402
+543,2025-12-05,Mobile and internet,Subscriptions,Expense,-3500
+544,2025-12-06,Savings transfer,Transfers,Transfer,-15000
+545,2025-12-06,Savings transfer received,Transfers,Transfer,15000
+546,2025-12-06,Selver,Groceries,Expense,-5794
+547,2025-12-07,Circle K,Transport,Expense,-3550
+548,2025-12-07,Selver,Groceries,Expense,-4706
+549,2025-12-08,Cinema,Entertainment,Expense,-1097
+550,2025-12-08,Circle K,Transport,Expense,-6149
+551,2025-12-08,Neighbourhood café,Dining out,Expense,-2136
+552,2025-12-09,Rimi,Groceries,Expense,-3376
+553,2025-12-10,Cinema,Entertainment,Expense,-1364
+554,2025-12-10,Neighbourhood café,Dining out,Expense,-1991
+555,2025-12-11,Pharmacy,Health,Expense,-1679
+556,2025-12-11,Rimi,Groceries,Expense,-2245
+557,2025-12-11,Selver,Groceries,Expense,-2035
+558,2025-12-12,Department store,Shopping,Expense,-7557
+559,2025-12-14,City transit,Transport,Expense,-1200
+560,2025-12-14,Restaurant,Dining out,Expense,-5055
+561,2025-12-15,Department store,Shopping,Expense,-4019
+562,2025-12-15,Neighbourhood café,Dining out,Expense,-550
+563,2025-12-15,Selver,Groceries,Expense,-3797
+564,2025-12-16,Restaurant,Dining out,Expense,-4267
+565,2025-12-16,Selver,Groceries,Expense,-4462
+566,2025-12-17,Restaurant,Dining out,Expense,-3408
+567,2025-12-18,City transit,Transport,Expense,-692
+568,2025-12-18,Department store,Shopping,Expense,-4509
+569,2025-12-19,Selver,Groceries,Expense,-4904
+570,2025-12-20,Rimi,Groceries,Expense,-3972
+571,2025-12-20,Seasonal shopping,Shopping,Expense,-16000
+572,2025-12-21,Neighbourhood café,Dining out,Expense,-2490
+573,2025-12-22,Circle K · lunch,Transport,Expense,-890
+574,2025-12-23,City transit,Transport,Expense,-1175
+575,2025-12-23,Neighbourhood café,Dining out,Expense,-1476
+576,2025-12-24,Pharmacy,Health,Expense,-2277
+577,2025-12-25,Selver,Groceries,Expense,-5606
+578,2025-12-26,Rimi,Groceries,Expense,-2158
+579,2026-01-01,Salary,Income,Income,287100
+580,2026-01-02,Rent,Housing,Expense,-78000
+581,2026-01-02,Restaurant,Dining out,Expense,-2621
+582,2026-01-02,Rimi,Groceries,Expense,-1323
+583,2026-01-03,Department store,Shopping,Expense,-3833
+584,2026-01-03,Restaurant,Dining out,Expense,-4363
+585,2026-01-04,Cinema,Entertainment,Expense,-1992
+586,2026-01-04,City transit,Transport,Expense,-225
+587,2026-01-04,City utilities,Utilities,Expense,-15042
+588,2026-01-04,Neighbourhood café,Dining out,Expense,-747
+589,2026-01-04,Selver,Groceries,Expense,-3390
+590,2026-01-05,Department store,Shopping,Expense,-8444
+591,2026-01-05,Mobile and internet,Subscriptions,Expense,-3500
+592,2026-01-05,Rimi,Groceries,Expense,-2223
+593,2026-01-06,Neighbourhood café,Dining out,Expense,-690
+594,2026-01-06,Savings transfer,Transfers,Transfer,-15000
+595,2026-01-06,Savings transfer received,Transfers,Transfer,15000
+596,2026-01-07,Selver,Groceries,Expense,-3572
+597,2026-01-09,Neighbourhood café,Dining out,Expense,-2436
+598,2026-01-09,Selver,Groceries,Expense,-6097
+599,2026-01-10,Rimi,Groceries,Expense,-1157
+600,2026-01-10,Selver,Groceries,Expense,-3663
+601,2026-01-12,Selver,Groceries,Expense,-3269
+602,2026-01-13,Neighbourhood café,Dining out,Expense,-2494
+603,2026-01-15,Neighbourhood café,Dining out,Expense,-1875
+604,2026-01-16,Neighbourhood café,Dining out,Expense,-2440
+605,2026-01-18,Circle K,Transport,Expense,-4396
+606,2026-01-18,Selver,Groceries,Expense,-3316
+607,2026-01-19,City transit,Transport,Expense,-782
+608,2026-01-19,Department store,Shopping,Expense,-4289
+609,2026-01-20,Pharmacy,Health,Expense,-2548
+610,2026-01-20,Selver,Groceries,Expense,-4118
+611,2026-01-21,Circle K,Transport,Expense,-6757
+612,2026-01-21,Restaurant,Dining out,Expense,-4811
+613,2026-01-22,Circle K · lunch,Transport,Expense,-890
+614,2026-01-23,Circle K,Transport,Expense,-3717
+615,2026-01-23,Rimi,Groceries,Expense,-3287
+616,2026-01-24,Selver,Groceries,Expense,-5766
+617,2026-01-25,Cinema,Entertainment,Expense,-1702
+618,2026-01-25,City transit,Transport,Expense,-1205
+619,2026-01-25,Pharmacy,Health,Expense,-3816
+620,2026-02-01,Rimi,Groceries,Expense,-2773
+621,2026-02-01,Salary,Income,Income,287250
+622,2026-02-02,Rent,Housing,Expense,-78000
+623,2026-02-03,City transit,Transport,Expense,-1607
+624,2026-02-03,Restaurant,Dining out,Expense,-2244
+625,2026-02-03,Rimi,Groceries,Expense,-1741
+626,2026-02-04,Cinema,Entertainment,Expense,-1809
+627,2026-02-04,City utilities,Utilities,Expense,-13845
+628,2026-02-05,Mobile and internet,Subscriptions,Expense,-3500
+629,2026-02-06,Restaurant,Dining out,Expense,-5246
+630,2026-02-06,Rimi,Groceries,Expense,-3360
+631,2026-02-06,Savings transfer,Transfers,Transfer,-15000
+632,2026-02-06,Savings transfer received,Transfers,Transfer,15000
+633,2026-02-06,Selver,Groceries,Expense,-3764
+634,2026-02-08,Circle K,Transport,Expense,-4380
+635,2026-02-08,Neighbourhood café,Dining out,Expense,-1563
+636,2026-02-09,Neighbourhood café,Dining out,Expense,-1062
+637,2026-02-09,Pharmacy,Health,Expense,-4799
+638,2026-02-09,Selver,Groceries,Expense,-2465
+639,2026-02-10,Circle K,Transport,Expense,-3333
+640,2026-02-10,Department store,Shopping,Expense,-5397
+641,2026-02-10,Restaurant,Dining out,Expense,-4437
+642,2026-02-10,Selver,Groceries,Expense,-2293
+643,2026-02-14,Neighbourhood café,Dining out,Expense,-950
+644,2026-02-15,Rimi,Groceries,Expense,-3923
+645,2026-02-15,Selver,Groceries,Expense,-4235
+646,2026-02-18,Neighbourhood café,Dining out,Expense,-1400
+647,2026-02-19,Department store,Shopping,Expense,-9346
+648,2026-02-20,Circle K,Transport,Expense,-5124
+649,2026-02-20,Selver,Groceries,Expense,-2612
+650,2026-02-21,Neighbourhood café,Dining out,Expense,-1090
+651,2026-02-21,Selver,Groceries,Expense,-3528
+652,2026-02-22,Circle K · lunch,Transport,Expense,-890
+653,2026-02-23,Cinema,Entertainment,Expense,-1472
+654,2026-02-23,City transit,Transport,Expense,-1129
+655,2026-02-23,City transit,Transport,Expense,-779
+656,2026-02-23,Pharmacy,Health,Expense,-3997
+657,2026-02-24,Department store,Shopping,Expense,-8552
+658,2026-02-25,Selver,Groceries,Expense,-3502
+659,2026-02-26,Neighbourhood café,Dining out,Expense,-1290
+660,2026-02-28,Selver,Groceries,Expense,-5312
+661,2026-03-01,Salary,Income,Income,287400
+662,2026-03-01,Selver,Groceries,Expense,-2548
+663,2026-03-02,Rent,Housing,Expense,-78000
+664,2026-03-03,City transit,Transport,Expense,-1162
+665,2026-03-03,Selver,Groceries,Expense,-2126
+666,2026-03-04,City utilities,Utilities,Expense,-10711
+667,2026-03-05,Mobile and internet,Subscriptions,Expense,-3500
+668,2026-03-06,Circle K,Transport,Expense,-5597
+669,2026-03-06,Rimi,Groceries,Expense,-3027
+670,2026-03-06,Savings transfer,Transfers,Transfer,-15000
+671,2026-03-06,Savings transfer received,Transfers,Transfer,15000
+672,2026-03-07,Pharmacy,Health,Expense,-3663
+673,2026-03-08,Selver,Groceries,Expense,-1969
+674,2026-03-10,Neighbourhood café,Dining out,Expense,-2120
+675,2026-03-11,City transit,Transport,Expense,-857
+676,2026-03-11,Neighbourhood café,Dining out,Expense,-2166
+677,2026-03-11,Restaurant,Dining out,Expense,-3033
+678,2026-03-11,Restaurant,Dining out,Expense,-2474
+679,2026-03-12,City transit,Transport,Expense,-1036
+680,2026-03-14,Circle K,Transport,Expense,-5800
+681,2026-03-14,Pharmacy,Health,Expense,-1144
+682,2026-03-14,Selver,Groceries,Expense,-4440
+683,2026-03-15,Restaurant,Dining out,Expense,-2360
+684,2026-03-15,Rimi,Groceries,Expense,-2239
+685,2026-03-16,Selver,Groceries,Expense,-5386
+686,2026-03-17,Rimi,Groceries,Expense,-3768
+687,2026-03-18,Cinema,Entertainment,Expense,-1796
+688,2026-03-19,Selver,Groceries,Expense,-2129
+689,2026-03-20,Selver,Groceries,Expense,-3851
+690,2026-03-22,Cinema,Entertainment,Expense,-2630
+691,2026-03-22,Circle K · lunch,Transport,Expense,-890
+692,2026-03-22,Neighbourhood café,Dining out,Expense,-908
+693,2026-03-23,Neighbourhood café,Dining out,Expense,-2509
+694,2026-03-25,Department store,Shopping,Expense,-5111
+695,2026-03-25,Rimi,Groceries,Expense,-4197
+696,2026-03-25,Selver,Groceries,Expense,-4007
+697,2026-03-27,Circle K,Transport,Expense,-5214
+698,2026-03-27,Department store,Shopping,Expense,-1809
+699,2026-03-27,Neighbourhood café,Dining out,Expense,-630
+700,2026-03-28,Department store,Shopping,Expense,-6015
+701,2026-03-28,Neighbourhood café,Dining out,Expense,-1138
+702,2026-04-01,Circle K,Transport,Expense,-5462
+703,2026-04-01,Salary,Income,Income,287550
+704,2026-04-02,Rent,Housing,Expense,-78000
+705,2026-04-03,Department store,Shopping,Expense,-4063
+706,2026-04-04,City transit,Transport,Expense,-1526
+707,2026-04-04,City transit,Transport,Expense,-1145
+708,2026-04-04,City utilities,Utilities,Expense,-11050
+709,2026-04-04,Selver,Groceries,Expense,-2036
+710,2026-04-05,Mobile and internet,Subscriptions,Expense,-3500
+711,2026-04-05,Restaurant,Dining out,Expense,-5539
+712,2026-04-06,Savings transfer,Transfers,Transfer,-15000
+713,2026-04-06,Savings transfer received,Transfers,Transfer,15000
+714,2026-04-07,Selver,Groceries,Expense,-3987
+715,2026-04-08,Circle K,Transport,Expense,-6646
+716,2026-04-10,Pharmacy,Health,Expense,-3145
+717,2026-04-10,Rimi,Groceries,Expense,-3356
+718,2026-04-10,Selver,Groceries,Expense,-5389
+719,2026-04-11,Cinema,Entertainment,Expense,-2463
+720,2026-04-13,Neighbourhood café,Dining out,Expense,-1260
+721,2026-04-14,Circle K,Transport,Expense,-3581
+722,2026-04-14,Neighbourhood café,Dining out,Expense,-2456
+723,2026-04-15,Neighbourhood café,Dining out,Expense,-1072
+724,2026-04-16,Neighbourhood café,Dining out,Expense,-1675
+725,2026-04-16,Neighbourhood café,Dining out,Expense,-1478
+726,2026-04-17,Cinema,Entertainment,Expense,-1397
+727,2026-04-17,Neighbourhood café,Dining out,Expense,-1599
+728,2026-04-18,Selver,Groceries,Expense,-2873
+729,2026-04-20,Restaurant,Dining out,Expense,-4081
+730,2026-04-21,Rimi,Groceries,Expense,-3593
+731,2026-04-21,Selver,Groceries,Expense,-5421
+732,2026-04-22,Circle K · lunch,Transport,Expense,-890
+733,2026-04-23,Rimi,Groceries,Expense,-1748
+734,2026-04-23,Selver,Groceries,Expense,-5770
+735,2026-04-24,Restaurant,Dining out,Expense,-5601
+736,2026-04-25,Department store,Shopping,Expense,-8271
+737,2026-04-25,Selver,Groceries,Expense,-5883
+738,2026-04-25,Selver,Groceries,Expense,-2222
+739,2026-04-26,Rimi,Groceries,Expense,-2080
+740,2026-04-27,City transit,Transport,Expense,-515
+741,2026-04-27,Pharmacy,Health,Expense,-721
+742,2026-04-28,Department store,Shopping,Expense,-5199
+743,2026-05-01,Neighbourhood café,Dining out,Expense,-1070
+744,2026-05-01,Salary,Income,Income,287700
+745,2026-05-02,Neighbourhood café,Dining out,Expense,-997
+746,2026-05-02,Rent,Housing,Expense,-78000
+747,2026-05-03,Cinema,Entertainment,Expense,-2594
+748,2026-05-04,City utilities,Utilities,Expense,-11930
+749,2026-05-04,Neighbourhood café,Dining out,Expense,-2351
+750,2026-05-05,City transit,Transport,Expense,-1214
+751,2026-05-05,Mobile and internet,Subscriptions,Expense,-3500
+752,2026-05-05,Restaurant,Dining out,Expense,-2306
+753,2026-05-06,Savings transfer,Transfers,Transfer,-15000
+754,2026-05-06,Savings transfer received,Transfers,Transfer,15000
+755,2026-05-08,Rimi,Groceries,Expense,-4276
+756,2026-05-09,Department store,Shopping,Expense,-4573
+757,2026-05-11,Circle K,Transport,Expense,-6250
+758,2026-05-11,Pharmacy,Health,Expense,-4697
+759,2026-05-11,Pharmacy,Health,Expense,-3813
+760,2026-05-11,Selver,Groceries,Expense,-6321
+761,2026-05-11,Selver,Groceries,Expense,-3345
+762,2026-05-13,Cinema,Entertainment,Expense,-2180
+763,2026-05-13,City transit,Transport,Expense,-1559
+764,2026-05-13,Selver,Groceries,Expense,-5530
+765,2026-05-14,Restaurant,Dining out,Expense,-5567
+766,2026-05-14,Rimi,Groceries,Expense,-1278
+767,2026-05-15,Selver,Groceries,Expense,-6212
+768,2026-05-16,Circle K,Transport,Expense,-6088
+769,2026-05-16,Department store,Shopping,Expense,-8202
+770,2026-05-16,Selver,Groceries,Expense,-4627
+771,2026-05-17,Neighbourhood café,Dining out,Expense,-1839
+772,2026-05-19,Rimi,Groceries,Expense,-2668
+773,2026-05-19,Selver,Groceries,Expense,-5811
+774,2026-05-20,Department store,Shopping,Expense,-7474
+775,2026-05-21,Restaurant,Dining out,Expense,-5972
+776,2026-05-22,Circle K · lunch,Transport,Expense,-890
+777,2026-05-23,Rimi,Groceries,Expense,-2078
+778,2026-05-25,Selver,Groceries,Expense,-6251
+779,2026-05-26,Circle K,Transport,Expense,-4761
+780,2026-05-26,City transit,Transport,Expense,-1535
+781,2026-05-28,Neighbourhood café,Dining out,Expense,-2283
+782,2026-05-28,Neighbourhood café,Dining out,Expense,-891
+783,2026-05-28,Selver,Groceries,Expense,-3017
+784,2026-06-01,Salary,Income,Income,287850
+785,2026-06-01,Selver,Groceries,Expense,-2176
+786,2026-06-02,Rent,Housing,Expense,-78000
+787,2026-06-02,Rimi,Groceries,Expense,-2301
+788,2026-06-02,Selver,Groceries,Expense,-2360
+789,2026-06-03,Department store,Shopping,Expense,-5418
+790,2026-06-04,City utilities,Utilities,Expense,-10716
+791,2026-06-05,Mobile and internet,Subscriptions,Expense,-3500
+792,2026-06-06,City transit,Transport,Expense,-548
+793,2026-06-06,City transit,Transport,Expense,-361
+794,2026-06-06,Savings transfer,Transfers,Transfer,-15000
+795,2026-06-06,Savings transfer received,Transfers,Transfer,15000
+796,2026-06-07,Pharmacy,Health,Expense,-3851
+797,2026-06-08,Circle K,Transport,Expense,-5375
+798,2026-06-08,Neighbourhood café,Dining out,Expense,-2368
+799,2026-06-08,Selver,Groceries,Expense,-4154
+800,2026-06-08,Selver,Groceries,Expense,-2540
+801,2026-06-09,Cinema,Entertainment,Expense,-1785
+802,2026-06-10,Department store,Shopping,Expense,-7034
+803,2026-06-10,Restaurant,Dining out,Expense,-4775
+804,2026-06-11,Rimi,Groceries,Expense,-4361
+805,2026-06-12,Department store,Shopping,Expense,-6613
+806,2026-06-12,Rimi,Groceries,Expense,-2635
+807,2026-06-14,Cinema,Entertainment,Expense,-2263
+808,2026-06-14,Circle K,Transport,Expense,-5518
+809,2026-06-14,Rimi,Groceries,Expense,-1696
+810,2026-06-14,Selver,Groceries,Expense,-2606
+811,2026-06-15,Neighbourhood café,Dining out,Expense,-1525
+812,2026-06-15,Selver,Groceries,Expense,-3162
+813,2026-06-16,Neighbourhood café,Dining out,Expense,-1066
+814,2026-06-18,Restaurant,Dining out,Expense,-2647
+815,2026-06-20,City transit,Transport,Expense,-983
+816,2026-06-20,Neighbourhood café,Dining out,Expense,-1466
+817,2026-06-21,Neighbourhood café,Dining out,Expense,-1520
+818,2026-06-22,Circle K,Transport,Expense,-6446
+819,2026-06-22,Circle K · lunch,Transport,Expense,-890
+820,2026-06-22,Neighbourhood café,Dining out,Expense,-518
+821,2026-06-23,Selver,Groceries,Expense,-4253
+822,2026-06-25,Selver,Groceries,Expense,-2623
+823,2026-06-26,Restaurant,Dining out,Expense,-3905
+824,2026-06-28,Pharmacy,Health,Expense,-3174
+825,2026-07-01,Salary,Income,Income,288000
+826,2026-07-01,Selver,Groceries,Expense,-5042
+827,2026-07-02,Neighbourhood café,Dining out,Expense,-1974
+828,2026-07-02,Rent,Housing,Expense,-78000
+829,2026-07-03,Restaurant,Dining out,Expense,-5725
+830,2026-07-04,City utilities,Utilities,Expense,-11995
+831,2026-07-05,Department store,Shopping,Expense,-8243
+832,2026-07-05,Mobile and internet,Subscriptions,Expense,-3500
+833,2026-07-06,Department store,Shopping,Expense,-3444
+834,2026-07-06,Savings transfer,Transfers,Transfer,-15000
+835,2026-07-06,Savings transfer received,Transfers,Transfer,15000
+836,2026-07-07,Circle K,Transport,Expense,-5743
+837,2026-07-08,Circle K,Transport,Expense,-5807
+838,2026-07-08,Rimi,Groceries,Expense,-3586
+839,2026-07-08,Selver,Groceries,Expense,-4924
+840,2026-07-09,City transit,Transport,Expense,-1588
+841,2026-07-09,Pharmacy,Health,Expense,-4647
+842,2026-07-09,Selver,Groceries,Expense,-1866
+843,2026-07-10,Neighbourhood café,Dining out,Expense,-2285
+844,2026-07-10,Restaurant,Dining out,Expense,-3338
+845,2026-07-12,Cinema,Entertainment,Expense,-1937
+846,2026-07-16,Rimi,Groceries,Expense,-2272
+847,2026-07-16,Selver,Groceries,Expense,-2673
+848,2026-07-17,Cinema,Entertainment,Expense,-1408
+849,2026-07-18,Department store,Shopping,Expense,-8979
+850,2026-07-19,Selver,Groceries,Expense,-4740
+851,2026-07-19,Selver,Groceries,Expense,-4223
+852,2026-07-19,Selver,Groceries,Expense,-2201
+853,2026-07-20,Rimi,Groceries,Expense,-4152
+854,2026-07-20,Seasonal shopping,Shopping,Expense,-16000
+855,2026-07-21,Neighbourhood café,Dining out,Expense,-877
+856,2026-07-21,Neighbourhood café,Dining out,Expense,-641
+857,2026-07-22,Circle K · lunch,Transport,Expense,-890
+858,2026-07-22,Neighbourhood café,Dining out,Expense,-1040
+859,2026-07-23,Selver,Groceries,Expense,-4218
+860,2026-07-24,Neighbourhood café,Dining out,Expense,-1018
+861,2026-07-24,Restaurant,Dining out,Expense,-3701
+862,2026-07-25,City transit,Transport,Expense,-1676
+863,2026-07-25,City transit,Transport,Expense,-1550
+864,2026-07-25,Rimi,Groceries,Expense,-4372
+865,2026-07-26,Circle K,Transport,Expense,-4643
+866,2026-07-27,Pharmacy,Health,Expense,-2047
+867,2026-08-01,Rimi,Groceries,Expense,-2183
+868,2026-08-01,Salary,Income,Income,288150
+869,2026-08-02,Rent,Housing,Expense,-78000
+870,2026-08-02,Restaurant,Dining out,Expense,-5875
+871,2026-08-02,Restaurant,Dining out,Expense,-3246
+872,2026-08-04,City utilities,Utilities,Expense,-11803
+873,2026-08-04,Department store,Shopping,Expense,-3723
+874,2026-08-04,Restaurant,Dining out,Expense,-2572
+875,2026-08-05,Mobile and internet,Subscriptions,Expense,-3500
+876,2026-08-05,Selver,Groceries,Expense,-3648
+877,2026-08-06,Savings transfer,Transfers,Transfer,-15000
+878,2026-08-06,Savings transfer received,Transfers,Transfer,15000
+879,2026-08-10,Selver,Groceries,Expense,-4574
+880,2026-08-12,Cinema,Entertainment,Expense,-2223
+881,2026-08-12,City transit,Transport,Expense,-421
+882,2026-08-12,Selver,Groceries,Expense,-2539
+883,2026-08-13,Cinema,Entertainment,Expense,-1779
+884,2026-08-15,Rimi,Groceries,Expense,-2609
+885,2026-08-15,Selver,Groceries,Expense,-2416
+886,2026-08-16,City transit,Transport,Expense,-251
+887,2026-08-16,Department store,Shopping,Expense,-2751
+888,2026-08-18,Department store,Shopping,Expense,-2911
+889,2026-08-18,Rimi,Groceries,Expense,-1606
+890,2026-08-19,Circle K,Transport,Expense,-4760
+891,2026-08-19,Pharmacy,Health,Expense,-1965
+892,2026-08-20,Neighbourhood café,Dining out,Expense,-1823
+893,2026-08-20,Neighbourhood café,Dining out,Expense,-1386
+894,2026-08-20,Seasonal shopping,Shopping,Expense,-16000
+895,2026-08-21,Neighbourhood café,Dining out,Expense,-2381
+896,2026-08-21,Neighbourhood café,Dining out,Expense,-2152
+897,2026-08-21,Neighbourhood café,Dining out,Expense,-738
+898,2026-08-22,Circle K,Transport,Expense,-4273
+899,2026-08-22,Circle K · lunch,Transport,Expense,-890
+900,2026-08-22,City transit,Transport,Expense,-678
+901,2026-08-22,Rimi,Groceries,Expense,-4167
+902,2026-08-23,Neighbourhood café,Dining out,Expense,-1717
+903,2026-08-24,Pharmacy,Health,Expense,-4133
+904,2026-08-26,Selver,Groceries,Expense,-5032
+905,2026-08-26,Selver,Groceries,Expense,-2743
+906,2026-08-27,Circle K,Transport,Expense,-5815
+907,2026-08-28,Selver,Groceries,Expense,-6365
+908,2026-08-28,Selver,Groceries,Expense,-5055
+909,2026-09-01,Neighbourhood café,Dining out,Expense,-687
+910,2026-09-01,Salary,Income,Income,288300
+911,2026-09-02,Rent,Housing,Expense,-78000
+912,2026-09-02,Rimi,Groceries,Expense,-2730
+913,2026-09-03,City transit,Transport,Expense,-1557
+914,2026-09-03,Neighbourhood café,Dining out,Expense,-1328
+915,2026-09-04,Circle K,Transport,Expense,-6673
+916,2026-09-04,City utilities,Utilities,Expense,-10199
+917,2026-09-04,Pharmacy,Health,Expense,-911
+918,2026-09-04,Rimi,Groceries,Expense,-3908
+919,2026-09-05,Cinema,Entertainment,Expense,-1116
+920,2026-09-05,Mobile and internet,Subscriptions,Expense,-3500
+921,2026-09-06,Savings transfer,Transfers,Transfer,-15000
+922,2026-09-06,Savings transfer received,Transfers,Transfer,15000
+923,2026-09-07,City transit,Transport,Expense,-1514
+924,2026-09-07,Selver,Groceries,Expense,-5432
+925,2026-09-08,Neighbourhood café,Dining out,Expense,-995
+926,2026-09-08,Restaurant,Dining out,Expense,-3345
+927,2026-09-09,Circle K,Transport,Expense,-3977
+928,2026-09-09,Department store,Shopping,Expense,-8832
+929,2026-09-09,Selver,Groceries,Expense,-2068
+930,2026-09-12,Rimi,Groceries,Expense,-3330
+931,2026-09-15,Selver,Groceries,Expense,-3734
+932,2026-09-18,Cinema,Entertainment,Expense,-1363
+933,2026-09-19,Neighbourhood café,Dining out,Expense,-1364
+934,2026-09-20,Department store,Shopping,Expense,-1823
+935,2026-09-20,Selver,Groceries,Expense,-5143
+936,2026-09-21,City transit,Transport,Expense,-1422
+937,2026-09-21,Rimi,Groceries,Expense,-2569
+938,2026-09-21,Selver,Groceries,Expense,-2611
+939,2026-09-22,Circle K · lunch,Transport,Expense,-890
+940,2026-09-23,Selver,Groceries,Expense,-4835
+941,2026-09-25,Restaurant,Dining out,Expense,-2604
+942,2026-09-26,Department store,Shopping,Expense,-9177
+943,2026-09-26,Neighbourhood café,Dining out,Expense,-1846
+944,2026-09-26,Neighbourhood café,Dining out,Expense,-1320
+945,2026-09-26,Pharmacy,Health,Expense,-2129
+946,2026-09-27,Circle K,Transport,Expense,-5062
+947,2026-09-27,Restaurant,Dining out,Expense,-5562
+948,2026-09-27,Selver,Groceries,Expense,-5808
+949,2026-09-28,Selver,Groceries,Expense,-4771
+950,2026-10-01,Neighbourhood café,Dining out,Expense,-729
+951,2026-10-01,Salary,Income,Income,288450
+952,2026-10-01,Selver,Groceries,Expense,-4734
+953,2026-10-01,Selver,Groceries,Expense,-3227
+954,2026-10-02,Rent,Housing,Expense,-78000
+955,2026-10-03,Neighbourhood café,Dining out,Expense,-810
+956,2026-10-03,Restaurant,Dining out,Expense,-2516
+957,2026-10-04,City utilities,Utilities,Expense,-9039
+958,2026-10-04,Rimi,Groceries,Expense,-2951
+959,2026-10-05,Mobile and internet,Subscriptions,Expense,-3500
+960,2026-10-05,Selver,Groceries,Expense,-5248
+961,2026-10-06,Savings transfer,Transfers,Transfer,-15000
+962,2026-10-06,Savings transfer received,Transfers,Transfer,15000
+963,2026-10-09,Restaurant,Dining out,Expense,-4557
+964,2026-10-09,Selver,Groceries,Expense,-2229
+965,2026-10-10,Cinema,Entertainment,Expense,-1779
+966,2026-10-11,Department store,Shopping,Expense,-4920
+967,2026-10-11,Neighbourhood café,Dining out,Expense,-1087
+968,2026-10-14,Neighbourhood café,Dining out,Expense,-922
+969,2026-10-14,Pharmacy,Health,Expense,-1512
+970,2026-10-15,City transit,Transport,Expense,-1517
+971,2026-10-16,Neighbourhood café,Dining out,Expense,-2296
+972,2026-10-16,Neighbourhood café,Dining out,Expense,-2125
+973,2026-10-16,Rimi,Groceries,Expense,-2936
+974,2026-10-17,Cinema,Entertainment,Expense,-2089
+975,2026-10-17,Circle K,Transport,Expense,-4107
+976,2026-10-17,City transit,Transport,Expense,-817
+977,2026-10-17,Rimi,Groceries,Expense,-3531
+978,2026-10-17,Selver,Groceries,Expense,-2731
+979,2026-10-18,Department store,Shopping,Expense,-7633
+980,2026-10-19,Selver,Groceries,Expense,-4452
+981,2026-10-20,Circle K,Transport,Expense,-3377
+982,2026-10-20,Department store,Shopping,Expense,-6146
+983,2026-10-21,Restaurant,Dining out,Expense,-4397
+984,2026-10-22,Circle K · lunch,Transport,Expense,-890
+985,2026-10-24,Circle K,Transport,Expense,-6408
+986,2026-10-24,Selver,Groceries,Expense,-2320
+987,2026-10-25,Rimi,Groceries,Expense,-2582
+988,2026-10-26,Pharmacy,Health,Expense,-1637
+989,2026-10-26,Selver,Groceries,Expense,-3749
+990,2026-10-28,City transit,Transport,Expense,-1549

@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="et">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RahaKompass · Kulude ülevaade</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/dashboard.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <div class="top-brand"><a class="brand" href="#avaleht">Raha<span>Kompass</span></a><span class="demo">Näidisandmed</span></div>
+    <nav aria-label="Põhimenüü">
+      <a href="#avaleht" data-view-link="avaleht">Avaleht</a>
+      <a href="#aruanded" data-view-link="aruanded">Aruanded</a>
+      <a href="#tehingud" data-view-link="tehingud">Tehingud</a>
+      <a href="#plaan" data-view-link="plaan">Plaan</a>
+      <a href="#vordlus" data-view-link="vordlus">Võrdlus</a>
+    </nav>
+  </header>
+  <main id="main-content">
+    <details class="period-bar">
+      <summary>Muuda tehingute perioodi</summary>
+      <div class="quick-periods" aria-label="Vali kiirelt periood">
+        <button type="button" data-period="month">Viimane kuu</button>
+        <button type="button" data-period="year">Viimane aasta</button>
+        <button type="button" data-period="all">Kogu ajalugu</button>
+      </div>
+      <form id="period">
+        <label>Alates <input type="month" id="start" required></label>
+        <label>Kuni <input type="month" id="end" required></label>
+        <button>Rakenda</button>
+      </form>
+    </details>
+    <p id="status" role="status"></p>
+    <div class="view" id="view-avaleht" data-view="avaleht">
+      <section class="overview-hero">
+        <div class="compass-decoration" aria-hidden="true"><i></i></div>
+        <div class="hero-heading">
+          <div><h1>Kuhu su raha läheb?</h1><p id="overview-period"></p></div>
+        </div>
+        <section class="metrics" aria-label="Perioodi koondsumma">
+          <div>Sissetulekud <strong id="income">—</strong></div>
+          <div>Kulud <strong id="spending">—</strong></div>
+          <div class="balance-card">Ülejääk <strong id="balance">—</strong></div>
+        </section>
+      </section>
+      <section class="panel monthly-briefing" aria-labelledby="briefing-heading">
+        <div>
+          <p class="briefing-period" id="briefing-period"></p>
+          <h2 id="briefing-heading">Mis muutus?</h2>
+          <p id="briefing-message" aria-live="polite">Laadin kuu kokkuvõtet…</p>
+        </div>
+        <button type="button" id="explain-monthly-change" aria-haspopup="dialog" aria-controls="adviser-dialog" hidden>Selgita muutust <span aria-hidden="true">→</span></button>
+      </section>
+      <a class="latest-report-link" href="#aruanded" id="latest-report">Ava viimase kuu aruanne <span aria-hidden="true">→</span></a>
+      <div class="disclosure-stack">
+        <details class="panel disclosure" name="overview-detail" id="category-detail">
+          <summary><span>Kulud kategooriate kaupa</span></summary>
+          <div class="disclosure-body">
+            <a id="export" href="/api/categories.png">Laadi diagramm alla</a>
+            <div id="categories"></div>
+          </div>
+        </details>
+        <details class="panel disclosure" name="overview-detail" id="trend-detail">
+          <summary><span>Kulud kuude kaupa</span></summary>
+          <div class="disclosure-body">
+            <p>Vali kuu, et vaadata selle tehinguid.</p>
+            <div class="chart-frame">
+              <div id="trend-scale" class="chart-scale" aria-hidden="true"></div>
+              <div class="chart-body">
+                <div id="trend" class="plot-grid" aria-label="Igakuiste kulude diagramm"></div>
+                <div id="trend-range"></div>
+              </div>
+            </div>
+            <p id="trend-point" class="chart-point"></p>
+          </div>
+        </details>
+        <details class="panel disclosure recurring" name="overview-detail">
+          <summary><span>Korduvmaksed</span><small id="recurring-preview"></small></summary>
+          <div class="disclosure-body">
+        <p id="recurring-status" aria-live="polite">Laadin maksete andmeid…</p>
+        <ul id="recurring-alerts"></ul>
+        <details class="recurring-method">
+          <summary>Kuidas RahaKompass tõusu tuvastab?</summary>
+          <p>Võrdlen sama kirjeldusega makseid, mis korduvad vähemalt kolmel järjestikusel kuul, üks kord kuus ja ligikaudu samal kuupäeval. Näitan tõusu, kui summa kasvas vähemalt 1 € ja 5% võrreldes eelmise kuuga. Suurem makse võib tuleneda ka suuremast tarbimisest.</p>
+        </details>
+          </div>
+        </details>
+      </div>
+    </div>
+    <div class="view" id="view-aruanded" data-view="aruanded" hidden>
+      <h1>Aruanded</h1>
+    <section class="panel report" aria-labelledby="report-heading">
+      <h2 id="report-heading">Koosta finantsülevaade</h2>
+      <form id="report-form">
+        <label>Ülevaate liik
+          <select id="report-type"><option value="month">Kuuaruanne</option><option value="year">Aastaülevaade</option><option value="quarter">Kvartaliülevaade</option></select>
+        </label>
+        <label>Aasta <select id="report-year" required></select></label>
+        <label id="report-month-field">Kuu <select id="report-month"></select></label>
+        <label id="report-quarter-field" hidden>Kvartal <select id="report-quarter"></select></label>
+        <label class="report-check"><input id="report-compare" type="checkbox" checked> Võrdle eelmise aastaga</label>
+        <button id="report-submit" type="submit" disabled>Koosta ülevaade</button>
+      </form>
+      <p id="report-status" role="status"></p>
+      <div id="report-output" hidden>
+        <h3 id="report-title"></h3>
+        <p id="report-period"></p>
+        <div class="table-scroll"><table>
+          <thead><tr><th scope="col">Näitaja</th><th scope="col">Valitud periood</th><th id="report-previous" scope="col"></th><th id="report-change" scope="col">Muutus</th></tr></thead>
+          <tbody id="report-totals"></tbody>
+        </table></div>
+        <p id="report-insight"></p>
+        <div class="report-links" id="report-links"></div>
+        <details id="report-comparison" hidden>
+          <summary>Vaata muutusi diagrammil</summary>
+          <p>Kolm suurimat muutust. Valitud periood on täisvärviga ja võrdlusperiood triibuline. Tulba valimine avab selle perioodi tehingud.</p>
+          <div id="report-bars"></div>
+        </details>
+        <div class="report-links"><button type="button" id="report-download">Laadi aruanne alla (CSV)</button></div>
+      </div>
+    </section>
+    </div>
+    <div class="view" id="view-plaan" data-view="plaan" hidden>
+      <h1>Plaan</h1>
+      <div class="disclosure-stack">
+      <details class="panel disclosure goal" name="plan-detail">
+        <summary><span>Säästuplaan</span><small id="savings-preview">Sea eesmärk ja jälgi edenemist</small></summary>
+        <div class="disclosure-body">
+      <form id="goal-form">
+        <label>Eesmärk (€) <input id="goal-amount" type="number" min="0.01" max="1000000" step="0.01" value="300" required></label>
+        <label>Tähtaja kuu <select id="goal-deadline"></select></label>
+        <label>Hoia selle kategooria kulud <select id="goal-protected"></select></label>
+      </form>
+      <div id="goal-results" aria-live="polite">
+        <p id="goal-summary"></p>
+        <div id="goal-options"></div>
+        <details class="secondary-detail">
+          <summary>Vaata prognoosi eeldusi</summary>
+          <p id="goal-stress"></p>
+          <p id="goal-assumptions"></p>
+        </details>
+      </div>
+      <section id="saved-savings" aria-labelledby="saved-savings-heading" hidden>
+        <h3 id="saved-savings-heading">Minu säästuplaan</h3>
+        <p id="savings-title"></p>
+        <progress id="savings-progress" aria-label="Eesmärgi edenemine" value="0" max="1"></progress>
+        <p id="savings-totals"></p>
+        <p id="savings-next"></p>
+        <p id="savings-strategy"></p>
+        <ul id="savings-limits"></ul>
+        <p id="savings-note"></p>
+        <form id="savings-progress-form">
+          <fieldset>
+            <legend>Tegelik kõrvale pandud summa</legend>
+            <p>Sisesta iga kuu summa. Jäta kuu tühjaks, kui sa pole seda veel arvestanud.</p>
+            <div id="savings-months"></div>
+            <button type="submit">Salvesta edenemine</button>
+          </fieldset>
+        </form>
+        <p id="savings-status" role="status"></p>
+      </section>
+        </div>
+      </details>
+      <details class="panel disclosure payment-calendar" name="plan-detail">
+        <summary><span>Maksed enne palgapäeva</span></summary>
+        <div class="disclosure-body">
+      <div class="heading">
+        <label>Planeerimise kuupäev <input type="date" id="calendar-date" required></label>
+      </div>
+      <p id="calendar-summary" role="status"></p>
+      <div id="calendar-payday"></div>
+      <div id="calendar-bills"></div>
+      <p class="calendar-method">Eeldatavad kuupäevad ja summad põhinevad varasematel maksetel. Tegelik kontojääk ja tulevased arved pole teada. Sinu parandused kehtivad selles avatud demos.</p>
+        </div>
+      </details>
+      <details class="panel disclosure planning" name="plan-detail">
+        <summary><span>Kolme kuu kuluprognoos</span></summary>
+        <div class="disclosure-body">
+      <div class="heading">
+        <label>Kuva
+          <select id="forecast-series"><option value="outlook">Kulud kokku</option><option value="utility_outlook">Kommunaalarved</option></select>
+        </label>
+      </div>
+      <p>Tegelikud kulud ja prognoos näidisandmete põhjal. Summa nägemiseks vali tulp.</p>
+      <div class="chart-legend" aria-label="Diagrammi legend">
+        <span><i class="legend-actual" aria-hidden="true"></i> Tegelik kulu</span>
+        <span><i class="legend-projected" aria-hidden="true"></i> Prognoos</span>
+      </div>
+      <div class="chart-frame forecast-frame">
+        <div id="forecast-scale" class="chart-scale" aria-hidden="true"></div>
+        <div class="chart-body"><div id="forecast-chart" class="plot-grid" aria-label="Tegelikud ja prognoositud kuusummad"></div></div>
+      </div>
+      <p id="forecast-point" role="status"></p>
+      <p id="outlook-note"></p>
+      <div class="planning-grid">
+        <div>
+          <h3>Millele tähelepanu pöörata</h3>
+          <ul id="watch-list"></ul>
+        </div>
+        <div>
+          <h3>Proovi säästustsenaariumi</h3>
+          <form id="scenario">
+            <label>Kulukategooria <select id="scenario-category"></select></label>
+            <label>Kärbe kuus (€) <input id="scenario-reduction" type="number" min="0" max="100000" step="0.01" value="20" required></label>
+          </form>
+          <p id="scenario-result" role="status"></p>
+        </div>
+      </div>
+        </div>
+      </details>
+      </div>
+    </div>
+    <div class="view" id="view-vordlus" data-view="vordlus" hidden>
+      <h1>Võrdlus</h1>
+    <section class="panel comparison" aria-labelledby="comparison-heading">
+      <div class="heading">
+        <h2 id="comparison-heading">Võrdle teiste leibkondadega</h2>
+        <label>Leibkondade rühm
+          <select id="peer-group">
+            <option value="lower">Väiksem sissetulek</option>
+            <option value="similar">Sarnane sissetulek</option>
+            <option value="higher">Suurem sissetulek</option>
+            <option value="lower_more_left">Väiksem sissetulek, rohkem jääb üle</option>
+          </select>
+        </label>
+      </div>
+      <p id="peer-note"></p>
+      <div id="peer-results" hidden>
+        <div class="table-scroll"><table>
+          <thead><tr><th scope="col">Valitud periood</th><th scope="col">Sina</th><th scope="col">Rühma mediaan</th></tr></thead>
+          <tbody id="peer-summary"></tbody>
+        </table></div>
+        <details class="secondary-detail">
+          <summary>Võrdle kulusid kategooriate kaupa</summary>
+          <div class="table-scroll"><table>
+            <thead><tr><th scope="col">Kategooria</th><th scope="col">Sina</th><th scope="col">Rühma mediaan</th><th scope="col">Erinevus</th></tr></thead>
+            <tbody id="peer-categories"></tbody>
+          </table></div>
+          <p>Oma tehingute vaatamiseks vali kategooria. Iga kategooria mediaan arvutatakse eraldi.</p>
+        </details>
+      </div>
+      <details class="secondary-detail"><summary>Kuidas võrdlus on tehtud?</summary><p class="peer-method">Võrdlus põhineb sama perioodi näidisleibkondadel. Ülejääk on sissetulekute ja kulude vahe, ülekandeid arvestamata. Sarnane sissetulek erineb sinu omast kuni 10%. Leibkondade kulud ja olud võivad erineda.</p></details>
+    </section>
+    </div>
+    <div class="view" id="view-tehingud" data-view="tehingud" hidden>
+      <h1>Tehingud</h1>
+    <section class="panel expense-panel" id="expenses">
+      <div class="heading">
+        <div><h2>Kulud</h2><p id="scope"></p></div>
+        <label>Otsi tehinguid <input type="search" id="search" placeholder="nt Circle K"></label>
+      </div>
+      <details class="secondary-detail transaction-filter-detail"><summary>Filtreeri või järjesta</summary><div class="expense-filters">
+        <label>Kategooria <select id="expense-category"></select></label>
+        <label>Kuu <select id="expense-month"></select></label>
+        <label>Järjesta
+          <select id="expense-sort">
+            <option value="recent">Uuemad enne</option>
+            <option value="oldest">Vanemad enne</option>
+            <option value="largest">Suuremad kulud enne</option>
+          </select>
+        </label>
+        <button type="button" id="clear-expense-filters">Tühjenda filtrid</button>
+      </div></details>
+      <div class="table-scroll"><table>
+        <thead><tr><th scope="col">Kuupäev</th><th scope="col">Kirjeldus</th><th scope="col">Kategooria</th><th scope="col">Summa</th><th scope="col">Toiming</th></tr></thead>
+        <tbody id="rows"></tbody>
+      </table></div>
+      <div class="pager"><button type="button" id="previous">Eelmine</button><span id="page"></span><button type="button" id="next">Järgmine</button></div>
+    </section>
+    </div>
+  </main>
+  <button class="chat-launcher" id="open-adviser" type="button" data-open-adviser aria-haspopup="dialog" aria-controls="adviser-dialog">
+    <span class="chat-launcher-mark" aria-hidden="true">•••</span> Rahaabiline
+  </button>
+  <dialog id="adviser-dialog" aria-labelledby="adviser-heading" aria-describedby="adviser-help">
+    <div class="chat-header">
+      <div><h2 id="adviser-heading">Rahaabiline</h2><p id="adviser-help">Küsi oma tehingute kohta. Vastused põhinevad ainult RahaKompassi näidisandmetel.</p></div>
+      <button type="button" id="close-adviser" aria-label="Sulge vestlus">Sulge</button>
+    </div>
+    <div id="adviser-context"></div>
+    <div id="adviser-log" role="log" aria-label="Vestlus rahaabilisega" tabindex="0">
+      <div class="chat-message"><strong>Rahaabiline</strong><p>Tere! Küsi summa, kaupmehe, kategooria või ajavahemiku kohta.</p></div>
+    </div>
+    <div class="adviser-prompts" aria-label="Näidisküsimused">
+      <button type="button" data-question="Kuhu mu raha läheb?">Minu kulud</button>
+      <button type="button" data-question="Kui palju kulutasin Circle K-s oktoobris 2026?">Circle K oktoobris</button>
+      <button type="button" data-question="Mis oli suurim tehing?">Suurim tehing</button>
+      <button type="button" id="adviser-follow-up" data-question="Aga eelmisel aastal?" hidden>Aga eelmisel aastal?</button>
+    </div>
+    <form id="adviser-form">
+      <label class="chat-label" for="adviser-question">Sinu küsimus</label>
+      <input id="adviser-question" type="text" maxlength="240" enterkeyhint="send" aria-describedby="adviser-send-status" placeholder="Kirjuta küsimus…" autofocus>
+      <button type="submit" id="send-adviser">Saada</button>
+    </form>
+    <p id="adviser-send-status" role="status"></p>
+    <div class="chat-footer">
+      <details id="adviser-contact">
+        <summary>Võta pangaga ühendust</summary>
+        <p>Sinu küsimust ega tehinguid pangale ei edastata.</p>
+        <a href="https://www.swedbank.ee/" target="_blank" rel="noopener noreferrer">Ava Swedbanki veebileht</a>
+      </details>
+      <button type="button" id="clear-adviser">Alusta uut vestlust</button>
+    </div>
+  </dialog>
+  <dialog id="edit">
+    <form id="edit-form">
+      <h2>Muuda kategooriat</h2>
+      <p id="edit-description"></p>
+      <div id="suggestion" hidden>
+        <p id="suggestion-reason"></p>
+        <button type="button" class="secondary" id="use-suggestion">Kasuta soovitust</button>
+      </div>
+      <label>Kulukategooria <select id="edit-category" required></select></label>
+      <p id="edit-error" role="alert"></p>
+      <div class="actions">
+        <button type="button" class="secondary" id="cancel">Tühista</button>
+        <button type="button" class="secondary" id="reset">Taasta algne</button>
+        <button type="submit" id="save">Salvesta kategooria</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>
