@@ -1,0 +1,250 @@
+﻿Date,Description,Category,Transaction type,Amount (EUR),Account
+2026-05-01,Apartment rent,Housing,Expense,-720,Everyday account
+2026-05-02,Rimi,Groceries,Expense,-43.55,Everyday account
+2026-05-02,Tallinn public transport,Transport,Expense,-5.97,Everyday account
+2026-05-03,Prisma,Groceries,Expense,-28.06,Everyday account
+2026-05-04,Coffee shop,Cafés,Expense,-4.69,Everyday account
+2026-05-05,Hesburger,Dining out,Expense,-16.39,Everyday account
+2026-05-05,Salary · Employer,Salary,Income,2120,Everyday account
+2026-05-06,Selver,Groceries,Expense,-20.29,Everyday account
+2026-05-06,Transfer from everyday,Transfers,Transfer,200,Savings account
+2026-05-06,Transfer to savings,Transfers,Transfer,-200,Everyday account
+2026-05-07,Reval Café,Cafés,Expense,-7.81,Everyday account
+2026-05-07,Sushi takeout,Dining out,Expense,-11.63,Everyday account
+2026-05-08,Sportland,Shopping,Expense,-86.71,Everyday account
+2026-05-09,Bolt ride,Transport,Expense,-4.26,Everyday account
+2026-05-09,Electricity & utilities,Utilities,Expense,-160,Everyday account
+2026-05-09,Selver,Groceries,Expense,-42.61,Everyday account
+2026-05-11,Caffeine,Cafés,Expense,-7.24,Everyday account
+2026-05-11,Telia,Utilities,Expense,-29.9,Everyday account
+2026-05-12,Lidl,Groceries,Expense,-35.1,Everyday account
+2026-05-12,Spotify,Subscriptions,Expense,-10.99,Everyday account
+2026-05-13,Netflix,Subscriptions,Expense,-13.49,Everyday account
+2026-05-14,Coffee shop,Cafés,Expense,-6.4,Everyday account
+2026-05-15,Gym membership,Health,Expense,-34.9,Everyday account
+2026-05-15,Prisma,Groceries,Expense,-11.7,Everyday account
+2026-05-16,Maxima,Groceries,Expense,-13.61,Everyday account
+2026-05-16,Tallinn public transport,Transport,Expense,-7.29,Everyday account
+2026-05-17,Cinema tickets,Entertainment,Expense,-26.51,Everyday account
+2026-05-18,Prisma,Groceries,Expense,-11.12,Everyday account
+2026-05-19,Restaurant lunch,Dining out,Expense,-15.45,Everyday account
+2026-05-21,H&M,Shopping,Expense,-58.91,Everyday account
+2026-05-21,Hesburger,Dining out,Expense,-22.14,Everyday account
+2026-05-21,Rimi,Groceries,Expense,-43.23,Everyday account
+2026-05-22,Bolt ride,Transport,Expense,-7.39,Everyday account
+2026-05-22,Pharmacy,Health,Expense,-18.09,Everyday account
+2026-05-23,Bolt ride,Transport,Expense,-23,Everyday account
+2026-05-24,Lidl,Groceries,Expense,-31.75,Everyday account
+2026-05-25,Coffee shop,Cafés,Expense,-5.28,Everyday account
+2026-05-27,Maxima,Groceries,Expense,-46.4,Everyday account
+2026-05-28,Caffeine,Cafés,Expense,-4.64,Everyday account
+2026-05-29,Bolt ride,Transport,Expense,-21.95,Everyday account
+2026-05-30,Selver,Groceries,Expense,-45.85,Everyday account
+2026-06-01,Apartment rent,Housing,Expense,-720,Everyday account
+2026-06-01,Caffeine,Cafés,Expense,-6.67,Everyday account
+2026-06-03,Prisma,Groceries,Expense,-25.93,Everyday account
+2026-06-04,Caffeine,Cafés,Expense,-5.84,Everyday account
+2026-06-05,Bolt ride,Transport,Expense,-14.15,Everyday account
+2026-06-05,Salary · Employer,Salary,Income,2300,Everyday account
+2026-06-06,Prisma,Groceries,Expense,-36.32,Everyday account
+2026-06-06,Transfer from everyday,Transfers,Transfer,200,Savings account
+2026-06-06,Transfer to savings,Transfers,Transfer,-200,Everyday account
+2026-06-08,Coffee shop,Cafés,Expense,-8.2,Everyday account
+2026-06-08,Euronics,Shopping,Expense,-51.02,Everyday account
+2026-06-09,Electricity & utilities,Utilities,Expense,-112,Everyday account
+2026-06-09,Maxima,Groceries,Expense,-30.93,Everyday account
+2026-06-09,Sushi takeout,Dining out,Expense,-14.27,Everyday account
+2026-06-11,Reval Café,Cafés,Expense,-8.1,Everyday account
+2026-06-11,Telia,Utilities,Expense,-29.9,Everyday account
+2026-06-11,Vapiano,Dining out,Expense,-11.45,Everyday account
+2026-06-12,Bolt ride,Transport,Expense,-23.23,Everyday account
+2026-06-12,Lidl,Groceries,Expense,-41.88,Everyday account
+2026-06-12,Spotify,Subscriptions,Expense,-10.99,Everyday account
+2026-06-13,Bolt ride,Transport,Expense,-19.44,Everyday account
+2026-06-13,Netflix,Subscriptions,Expense,-13.49,Everyday account
+2026-06-15,Gym membership,Health,Expense,-34.9,Everyday account
+2026-06-15,Rimi,Groceries,Expense,-12,Everyday account
+2026-06-17,Cinema tickets,Entertainment,Expense,-15.02,Everyday account
+2026-06-18,Rimi,Groceries,Expense,-41.72,Everyday account
+2026-06-18,Online freelance work,Other income,Income,250,Everyday account
+2026-06-20,Circle K fuel,Transport,Expense,-14,Everyday account
+2026-06-20,Selver,Groceries,Expense,-20.96,Everyday account
+2026-06-21,Selver,Groceries,Expense,-46.73,Everyday account
+2026-06-21,Sportland,Shopping,Expense,-35.45,Everyday account
+2026-06-22,Caffeine,Cafés,Expense,-6.26,Everyday account
+2026-06-22,Pharmacy,Health,Expense,-13.58,Everyday account
+2026-06-23,Sushi takeout,Dining out,Expense,-15.13,Everyday account
+2026-06-24,Prisma,Groceries,Expense,-30.38,Everyday account
+2026-06-25,Caffeine,Cafés,Expense,-6.84,Everyday account
+2026-06-25,Hesburger,Dining out,Expense,-15.15,Everyday account
+2026-06-27,Selver,Groceries,Expense,-13.58,Everyday account
+2026-06-27,Tallinn public transport,Transport,Expense,-4.88,Everyday account
+2026-06-29,Caffeine,Cafés,Expense,-4.23,Everyday account
+2026-06-30,Rimi,Groceries,Expense,-15.07,Everyday account
+2026-07-01,Apartment rent,Housing,Expense,-720,Everyday account
+2026-07-02,Caffeine,Cafés,Expense,-7.3,Everyday account
+2026-07-03,Selver,Groceries,Expense,-26.5,Everyday account
+2026-07-03,Tallinn public transport,Transport,Expense,-8.4,Everyday account
+2026-07-04,Circle K fuel,Transport,Expense,-6.04,Everyday account
+2026-07-04,Selver,Groceries,Expense,-33.1,Everyday account
+2026-07-05,Salary · Employer,Salary,Income,2120,Everyday account
+2026-07-06,Maxima,Groceries,Expense,-13.05,Everyday account
+2026-07-06,Transfer from everyday,Transfers,Transfer,200,Savings account
+2026-07-06,Transfer to savings,Transfers,Transfer,-200,Everyday account
+2026-07-07,Hesburger,Dining out,Expense,-13.64,Everyday account
+2026-07-08,Online marketplace,Shopping,Expense,-81.05,Everyday account
+2026-07-09,Electricity & utilities,Utilities,Expense,-158,Everyday account
+2026-07-09,Lidl,Groceries,Expense,-39.99,Everyday account
+2026-07-09,Pizza delivery,Dining out,Expense,-20.86,Everyday account
+2026-07-11,Tallinn public transport,Transport,Expense,-10.29,Everyday account
+2026-07-11,Telia,Utilities,Expense,-29.9,Everyday account
+2026-07-12,Maxima,Groceries,Expense,-39.45,Everyday account
+2026-07-12,Spotify,Subscriptions,Expense,-10.99,Everyday account
+2026-07-13,Netflix,Subscriptions,Expense,-13.49,Everyday account
+2026-07-13,Reval Café,Cafés,Expense,-6.59,Everyday account
+2026-07-15,Gym membership,Health,Expense,-34.9,Everyday account
+2026-07-15,Selver,Groceries,Expense,-43.43,Everyday account
+2026-07-16,Caffeine,Cafés,Expense,-4.82,Everyday account
+2026-07-17,Cinema tickets,Entertainment,Expense,-15.54,Everyday account
+2026-07-18,Lidl,Groceries,Expense,-17.71,Everyday account
+2026-07-20,Caffeine,Cafés,Expense,-6.58,Everyday account
+2026-07-21,H&M,Shopping,Expense,-33.86,Everyday account
+2026-07-21,Lidl,Groceries,Expense,-34.51,Everyday account
+2026-07-21,Vapiano,Dining out,Expense,-13.16,Everyday account
+2026-07-22,Pharmacy,Health,Expense,-10.3,Everyday account
+2026-07-23,Coffee shop,Cafés,Expense,-4.78,Everyday account
+2026-07-23,Vapiano,Dining out,Expense,-16.5,Everyday account
+2026-07-24,Circle K fuel,Transport,Expense,-18.33,Everyday account
+2026-07-24,Prisma,Groceries,Expense,-34.26,Everyday account
+2026-07-25,Bolt ride,Transport,Expense,-13.7,Everyday account
+2026-07-27,Rimi,Groceries,Expense,-39.18,Everyday account
+2026-07-30,Prisma,Groceries,Expense,-9.23,Everyday account
+2026-07-31,Tallinn public transport,Transport,Expense,-21.78,Everyday account
+2026-08-01,Apartment rent,Housing,Expense,-720,Everyday account
+2026-08-03,Lidl,Groceries,Expense,-9.77,Everyday account
+2026-08-05,Salary · Employer,Salary,Income,2180,Everyday account
+2026-08-06,Rimi,Groceries,Expense,-24.14,Everyday account
+2026-08-06,Transfer from everyday,Transfers,Transfer,200,Savings account
+2026-08-06,Transfer to savings,Transfers,Transfer,-200,Everyday account
+2026-08-07,Circle K fuel,Transport,Expense,-9.65,Everyday account
+2026-08-08,Circle K fuel,Transport,Expense,-11.86,Everyday account
+2026-08-08,Lidl,Groceries,Expense,-41.93,Everyday account
+2026-08-08,Sportland,Shopping,Expense,-80.16,Everyday account
+2026-08-09,Electricity & utilities,Utilities,Expense,-126,Everyday account
+2026-08-09,Maxima,Groceries,Expense,-8.61,Everyday account
+2026-08-10,Coffee shop,Cafés,Expense,-6.91,Everyday account
+2026-08-11,Telia,Utilities,Expense,-29.9,Everyday account
+2026-08-11,Vapiano,Dining out,Expense,-23.81,Everyday account
+2026-08-12,Selver,Groceries,Expense,-40.46,Everyday account
+2026-08-12,Spotify,Subscriptions,Expense,-10.99,Everyday account
+2026-08-13,Netflix,Subscriptions,Expense,-13.49,Everyday account
+2026-08-13,Restaurant lunch,Dining out,Expense,-11.48,Everyday account
+2026-08-13,Reval Café,Cafés,Expense,-4.76,Everyday account
+2026-08-14,Live music tickets,Entertainment,Expense,-49,Everyday account
+2026-08-15,Bar & nightlife,Entertainment,Expense,-84,Everyday account
+2026-08-15,Gym membership,Health,Expense,-34.9,Everyday account
+2026-08-15,Late-night taxi,Transport,Expense,-21.8,Everyday account
+2026-08-15,Maxima,Groceries,Expense,-9.22,Everyday account
+2026-08-16,Weekend restaurant,Dining out,Expense,-62,Everyday account
+2026-08-17,Reval Café,Cafés,Expense,-5.97,Everyday account
+2026-08-18,Selver,Groceries,Expense,-22.3,Everyday account
+2026-08-20,Reval Café,Cafés,Expense,-5.57,Everyday account
+2026-08-21,Euronics,Shopping,Expense,-72.24,Everyday account
+2026-08-21,Lidl,Groceries,Expense,-30.29,Everyday account
+2026-08-22,Pharmacy,Health,Expense,-18.8,Everyday account
+2026-08-22,Rimi,Groceries,Expense,-10.62,Everyday account
+2026-08-24,Rimi,Groceries,Expense,-39.51,Everyday account
+2026-08-25,Restaurant lunch,Dining out,Expense,-12.09,Everyday account
+2026-08-27,Prisma,Groceries,Expense,-10.11,Everyday account
+2026-08-27,Sushi takeout,Dining out,Expense,-19.79,Everyday account
+2026-08-28,Tallinn public transport,Transport,Expense,-30.4,Everyday account
+2026-08-29,Circle K fuel,Transport,Expense,-18.29,Everyday account
+2026-08-30,Rimi,Groceries,Expense,-19.07,Everyday account
+2026-08-31,Reval Café,Cafés,Expense,-8.02,Everyday account
+2026-09-01,Apartment rent,Housing,Expense,-720,Everyday account
+2026-09-01,Sushi takeout,Dining out,Expense,-14.77,Everyday account
+2026-09-03,Maxima,Groceries,Expense,-11.04,Everyday account
+2026-09-03,Restaurant lunch,Dining out,Expense,-12.53,Everyday account
+2026-09-05,Bolt ride,Transport,Expense,-10.22,Everyday account
+2026-09-05,Salary · Employer,Salary,Income,2350,Everyday account
+2026-09-06,Prisma,Groceries,Expense,-21,Everyday account
+2026-09-06,Transfer from everyday,Transfers,Transfer,200,Savings account
+2026-09-06,Transfer to savings,Transfers,Transfer,-200,Everyday account
+2026-09-07,Reval Café,Cafés,Expense,-7.26,Everyday account
+2026-09-08,Euronics,Shopping,Expense,-60.37,Everyday account
+2026-09-09,Electricity & utilities,Utilities,Expense,-139,Everyday account
+2026-09-09,Lidl,Groceries,Expense,-40.99,Everyday account
+2026-09-10,Coffee shop,Cafés,Expense,-4.95,Everyday account
+2026-09-11,Circle K fuel,Transport,Expense,-14.71,Everyday account
+2026-09-11,Telia,Utilities,Expense,-29.9,Everyday account
+2026-09-12,Circle K fuel,Transport,Expense,-18.27,Everyday account
+2026-09-12,Rimi,Groceries,Expense,-10.76,Everyday account
+2026-09-12,Spotify,Subscriptions,Expense,-10.99,Everyday account
+2026-09-13,Netflix,Subscriptions,Expense,-13.49,Everyday account
+2026-09-14,Caffeine,Cafés,Expense,-6.4,Everyday account
+2026-09-15,Gym membership,Health,Expense,-34.9,Everyday account
+2026-09-15,Hesburger,Dining out,Expense,-15.59,Everyday account
+2026-09-15,Prisma,Groceries,Expense,-9.43,Everyday account
+2026-09-17,Cinema tickets,Entertainment,Expense,-20.74,Everyday account
+2026-09-17,Coffee shop,Cafés,Expense,-6.11,Everyday account
+2026-09-17,Restaurant lunch,Dining out,Expense,-18.52,Everyday account
+2026-09-18,Bolt ride,Transport,Expense,-7,Everyday account
+2026-09-18,Rimi,Groceries,Expense,-28.95,Everyday account
+2026-09-18,Online freelance work,Other income,Income,250,Everyday account
+2026-09-19,Circle K fuel,Transport,Expense,-24.05,Everyday account
+2026-09-21,Euronics,Shopping,Expense,-87.33,Everyday account
+2026-09-21,Selver,Groceries,Expense,-43.57,Everyday account
+2026-09-22,Pharmacy,Health,Expense,-13.92,Everyday account
+2026-09-24,Prisma,Groceries,Expense,-14.4,Everyday account
+2026-09-25,Bolt ride,Transport,Expense,-16.08,Everyday account
+2026-09-26,Rimi,Groceries,Expense,-18.86,Everyday account
+2026-09-27,Maxima,Groceries,Expense,-43.02,Everyday account
+2026-09-28,Coffee shop,Cafés,Expense,-3.92,Everyday account
+2026-09-29,Restaurant lunch,Dining out,Expense,-20.15,Everyday account
+2026-09-30,Selver,Groceries,Expense,-44.69,Everyday account
+2026-10-01,Apartment rent,Housing,Expense,-720,Everyday account
+2026-10-01,Caffeine,Cafés,Expense,-5,Everyday account
+2026-10-01,Hesburger,Dining out,Expense,-22,Everyday account
+2026-10-02,Bolt ride,Transport,Expense,-12.31,Everyday account
+2026-10-03,Rimi,Groceries,Expense,-34.56,Everyday account
+2026-10-05,Coffee shop,Cafés,Expense,-7.92,Everyday account
+2026-10-05,Salary · Employer,Salary,Income,2350,Everyday account
+2026-10-06,Rimi,Groceries,Expense,-17.57,Everyday account
+2026-10-06,Transfer from everyday,Transfers,Transfer,200,Savings account
+2026-10-06,Transfer to savings,Transfers,Transfer,-200,Everyday account
+2026-10-08,Coffee shop,Cafés,Expense,-4.92,Everyday account
+2026-10-08,H&M,Shopping,Expense,-66.05,Everyday account
+2026-10-09,Bolt ride,Transport,Expense,-19,Everyday account
+2026-10-09,Electricity & utilities,Utilities,Expense,-132,Everyday account
+2026-10-09,Lidl,Groceries,Expense,-13.99,Everyday account
+2026-10-10,Bolt ride,Transport,Expense,-15.64,Everyday account
+2026-10-10,Maxima,Groceries,Expense,-26.84,Everyday account
+2026-10-11,Telia,Utilities,Expense,-29.9,Everyday account
+2026-10-12,Prisma,Groceries,Expense,-29.57,Everyday account
+2026-10-12,Spotify,Subscriptions,Expense,-10.99,Everyday account
+2026-10-13,Netflix,Subscriptions,Expense,-13.49,Everyday account
+2026-10-13,Vapiano,Dining out,Expense,-14.04,Everyday account
+2026-10-14,Live music tickets,Entertainment,Expense,-49,Everyday account
+2026-10-15,Bar & nightlife,Entertainment,Expense,-84,Everyday account
+2026-10-15,Gym membership,Health,Expense,-34.9,Everyday account
+2026-10-15,Late-night taxi,Transport,Expense,-21.8,Everyday account
+2026-10-15,Selver,Groceries,Expense,-32.8,Everyday account
+2026-10-15,Sushi takeout,Dining out,Expense,-23.83,Everyday account
+2026-10-16,Weekend restaurant,Dining out,Expense,-62,Everyday account
+2026-10-17,Circle K fuel,Transport,Expense,-13.48,Everyday account
+2026-10-18,Rimi,Groceries,Expense,-16.08,Everyday account
+2026-10-19,Caffeine,Cafés,Expense,-7.69,Everyday account
+2026-10-21,Online marketplace,Shopping,Expense,-27.81,Everyday account
+2026-10-21,Rimi,Groceries,Expense,-45.32,Everyday account
+2026-10-22,Pharmacy,Health,Expense,-9.45,Everyday account
+2026-10-22,Reval Café,Cafés,Expense,-8.37,Everyday account
+2026-10-23,Bolt ride,Transport,Expense,-30.62,Everyday account
+2026-10-24,Rimi,Groceries,Expense,-25.35,Everyday account
+2026-10-26,Caffeine,Cafés,Expense,-4.81,Everyday account
+2026-10-27,Pizza delivery,Dining out,Expense,-9.03,Everyday account
+2026-10-27,Selver,Groceries,Expense,-15.48,Everyday account
+2026-10-29,Caffeine,Cafés,Expense,-8.14,Everyday account
+2026-10-29,Pizza delivery,Dining out,Expense,-16.35,Everyday account
+2026-10-30,Circle K fuel,Transport,Expense,-16.82,Everyday account
+2026-10-30,Maxima,Groceries,Expense,-35.39,Everyday account
+2026-10-31,Bolt ride,Transport,Expense,-20.11,Everyday account
