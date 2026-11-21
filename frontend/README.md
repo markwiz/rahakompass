@@ -1,0 +1,1 @@
+Rahakompassi frontendi prototüüp
